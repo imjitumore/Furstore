@@ -117,7 +117,7 @@ function Allproducts(props) {
           } ${value == 1 ? "changeGri1" : ""}`}
         >
           {props.data.map((val) => (
-            <Link to={`/productsdetails/${val.id}`} key={val.id}>
+            <Link to={`/productdetails/${val.id}`} key={val.id}>
               <Arrial_card
                 image={val.image}
                 name={val.name}

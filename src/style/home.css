@@ -57,3 +57,9 @@ input,textarea
     padding: 0.8em 1em !important;
     border-radius: 6px !important;
 }
+
+.active
+{
+    background-color: #387581;
+    color: white;
+}

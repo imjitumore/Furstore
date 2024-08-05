@@ -15,8 +15,9 @@ import blog10 from "../assets/blog_10.jpg"
 import blog11 from "../assets/blog_11.jpg"
 import blog12 from "../assets/blog_12.jpg"
 import { Footer } from './Footer';
+import { Link } from 'react-router-dom';
 
-export const Blog = () => {
+export const Blog = ({data}) => {
     const[val,setval]=useState([
             {
                 "image":blog1,
@@ -34,6 +35,11 @@ export const Blog = () => {
             }
             
     ])
+
+    const[value,setValue]=useState(false)
+    const[value1,setValue1]=useState(false)
+    const[value2,setValue2]=useState(false)
+    const[value3,setValue3]=useState(false)
   return (
     <>
         <div className="blogg">
@@ -47,11 +53,13 @@ export const Blog = () => {
         </div>
         <div className="newses">
         {val.map((item)=>{
-            return <Temp image={item.image} name={item.name}/>
+            return <Temp data={data} image={item.image} name={item.name}/>
         })}
+        
         </div>
         <div className="btns text-center my-5">
             <button onClick={()=>{
+                setValue(true)
                 setval([{
                     "image":blog1,
                     "name":"Pellensque nunc condentum"
@@ -66,9 +74,10 @@ export const Blog = () => {
                     "image":blog3,
                     "name":"Nullam consectetur lacus nec"
                 }])
-            }} className='py-3 px-5 mx-3 rounded-[50%]  border-2 hover:bg-[#2B5E5D] hover:text-white'>1</button>
+            }} className={`py-3 px-5 mx-3 rounded-[50%]  border-2 hover:bg-[#2B5E5D] hover:text-white ${value?"active":""}`}>1</button>
 
             <button onClick={()=>{
+                setValue1(true)
                 setval([{
                     "image":blog4,
                     "name":"Quisque dictum leo venenatis"
@@ -83,9 +92,10 @@ export const Blog = () => {
                     "image":blog6,
                     "name":"Elementum orci sollicitudin non"
                 }])
-            }}  className='py-3 px-5 mx-3 rounded-[50%]  border-2 hover:bg-[#2B5E5D] hover:text-white'>2</button>
+            }}  className={`py-3 px-5 mx-3 rounded-[50%]  border-2 hover:bg-[#2B5E5D] hover:text-white ${value1?"active":""}`}>2</button>
 
             <button onClick={()=>{
+                setValue2(true)
                 setval([{
                     "image":blog7,
                     "name":"Pellensque nunc condentum"
@@ -100,9 +110,10 @@ export const Blog = () => {
                     "image":blog9,
                     "name":"Quisque dictum leo venenatis"
                 }])
-            }}  className='py-3 px-5 mx-3 rounded-[50%]  border-2 hover:bg-[#2B5E5D] hover:text-white'>3</button>
+            }}  className={`py-3 px-5 mx-3 rounded-[50%]  border-2 hover:bg-[#2B5E5D] hover:text-white ${value2?"active":""}`}>3</button>
 
             <button onClick={()=>{
+                setValue3(true)
                 setval([{
                     "image":blog10,
                     "name":"Duis ipsum lorem cursus ferment"
@@ -117,7 +128,7 @@ export const Blog = () => {
                     "image":blog12,
                     "name":"Proin tincidunt ipsum nec"
                 }])
-            }}  className='py-3 px-5 mx-3 rounded-[50%]  border-2 hover:bg-[#2B5E5D] hover:text-white'>4</button>
+            }}  className={`py-3 px-5 mx-3 rounded-[50%]  border-2 hover:bg-[#2B5E5D] hover:text-white ${value3?"active":""}`}>4</button>
         </div>
         </div>
         <Footer/>
@@ -136,7 +147,9 @@ function Temp(props)
                 <hr />
                 <p className='text-md py-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur quod, asperiores distinctio rerum neque incidunt! Sequi rerum quibusdam deleniti.
                      A beatae adipisci nam inventore possimus asperiores sunt ipsam accusamus quis animi?</p>
-                     <button className='news_btn my-6 rounded-lg py-3 text-center bg-[#2B5E5D] text-white  transition duration-1000 px-12 border-2 text-lg' >Read More</button>
+                     {props.data.map((item)=>{
+                        return <Link to={`/blogdetails/${item.name}`} key={item.id}><button className='news_btn my-6 rounded-lg py-3 text-center bg-[#2B5E5D] text-white  transition duration-1000 px-12 border-2 text-lg' >Read More</button></Link>
+                    })}
             </div>
         </>
     )
