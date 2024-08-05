@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+          /* {
+                "image":blog8,
+                "name":"Elementum orci sollicitudin non"
+            }
+            ,
+            {
+                "image":blog9,
+                "name":"Quisque dictum leo venenatis"
+            }
+            ,
+            {
+                "image":blog10,
+                "name":"Duis ipsum lorem cursus ferment"
+            }
+            ,
+            {
+                "image":blog11,
+                "name":"Consectetur adipiscing elit"
+            }
+            ,
+            {
+                "image":blog12,
+                "name":"Proin tincidunt ipsum nec"
+            } */
+
+
+

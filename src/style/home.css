@@ -1,0 +1,59 @@
+*{
+    font-family: jost;
+}
+
+.slct
+{
+    background-color:#d5d5d5;
+    color:black;
+    width: 100%;
+}
+
+
+.slct:hover
+{
+    background-color:black;
+    color:white;
+    width: 100%;
+}
+.selects
+{
+    margin: 0 3.5em;
+}
+
+.products_container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.changeGrid
+{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.changeGrid2
+{
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.changeGrid1
+{
+    grid-template-columns: repeat(1,1fr);
+}
+
+.GRID
+{
+    width: 100%;
+    display: flex;
+}
+
+input,textarea
+{
+
+    width: 100%;
+    border: 1px solid #d5d5d5;
+    padding: 0.8em 1em !important;
+    border-radius: 6px !important;
+}
