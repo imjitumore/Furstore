@@ -46,7 +46,7 @@ export const Arrial = () => {
           <div className="arrial_cards grid grid-cols-3 grid-rows-2">
             {card.map((item) => {
               return (
-                <Link to={`/productsdetails/${item.image}`}>
+                <Link to={`/productsdetails/${item.id}`}>
                   <Arrial_card
                     image={item.image}
                     name={item.name}

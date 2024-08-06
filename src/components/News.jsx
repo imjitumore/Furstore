@@ -33,9 +33,9 @@ export const News = () => {
     autoplay: true,
     autoplaySpeed: 3000,
   };
+  
   return (
 
-  
     <>
       <div className="news_main my-20">
         <div className="main_text new_title text-6xl text-center my-10">
