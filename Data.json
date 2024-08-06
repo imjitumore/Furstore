@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "image":"../src/assets/amet.jpg",
+        "image":"../src/assets/bigamet2.jpg",
         "name":"Amet",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -12,7 +12,7 @@
     ,
     {
         "id":2,
-        "image":"../src/assets/chair.jpg",
+        "image":"../src/assets/bigchair2.jpg",
         "name":"Chair",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -23,7 +23,7 @@
     ,
     {
         "id":3,
-        "image":"../src/assets/flowerpot.jpg",
+        "image":"../src/assets/bigflowerpot2.jpg",
         "name":"Flower pot",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -34,8 +34,8 @@
     ,
     {
         "id":4,
-        "image":"../src/assets/cum.jpg",
-        "name":"Cum",
+        "image":"../src/assets/bigclock3.jpg",
+        "name":"Clock",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -44,8 +44,8 @@
     }
     ,    {
         "id":5,
-        "image":"../src/assets/chair2.jpg",
-        "name":"Tree",
+        "image":"../src/assets/bigpot3.jpg",
+        "name":"Pot",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -55,7 +55,7 @@
     ,
     {
         "id":6,
-        "image":"../src/assets/pot.jpg",
+        "image":"../src/assets/bigpot2.jpg",
         "name":"Pot",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -66,7 +66,7 @@
     ,
     {
         "id":7,
-        "image":"../src/assets/table.jpg",
+        "image":"../src/assets/bigtable2.jpg",
         "name":"Table",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -77,7 +77,7 @@
     ,
     {
         "id":8,
-        "image":"../src/assets/clock.jpg",
+        "image":"../src/assets/bigclock2.jpg",
         "name":"Clock",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -88,8 +88,8 @@
     ,
     {
         "id":9,
-        "image":"../src/assets/wati.jpg",
-        "name":"Wati",
+        "image":"../src/assets/bigcum2.jpg",
+        "name":"Cum",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -99,7 +99,7 @@
     ,
     {
         "id":10,
-        "image":"../src/assets/ushi2.jpg",
+        "image":"../src/assets/bigushi2.jpg",
         "name":"Ushi",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -110,8 +110,8 @@
     ,
     {
         "id":11,
-        "image":"../src/assets/whitepot.jpg",
-        "name":"White pot",
+        "image":"../src/assets/bigflowerpot4.jpg",
+        "name":"Pot",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -121,8 +121,8 @@
     ,
     {
         "id":12,
-        "image":"../src/assets/lamp3.jpg",
-        "name":"Modern Lamp",
+        "image":"../src/assets/biglamp4.jpg",
+        "name":"Lamp",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -131,8 +131,8 @@
     }
     ,    {
         "id":13,
-        "image":"../src/assets/chair3.jpg",
-        "name":"chair3",
+        "image":"../src/assets/bigchair5.jpg",
+        "name":"Chair",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -142,7 +142,7 @@
     ,
     {
         "id":14,
-        "image":"../src/assets/latkan2.jpg",
+        "image":"../src/assets/biglatkan2.jpg",
         "name":"Latkan",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -153,7 +153,7 @@
     ,
     {
         "id":15,
-        "image":"../src/assets/mainsopa.jpg",
+        "image":"../src/assets/bigsopa3.jpg",
         "name":"Sopa",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -164,7 +164,7 @@
     ,
     {
         "id":16,
-        "image":"../src/assets/flowerpot2.jpg",
+        "image":"../src/assets/bigflowerpot4.jpg",
         "name":"Green pot",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -175,7 +175,7 @@
     ,
     {
         "id":17,
-        "image":"../src/assets/plant2.jpg",
+        "image":"../src/assets/bigpot4.jpg",
         "name":"Plant",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -186,8 +186,8 @@
     ,
     {
         "id":18,
-        "image":"../src/assets/speaker.jpg",
-        "name":"Speaker",
+        "image":"../src/assets/bigsopa_2.jpg",
+        "name":"Sopa",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -197,7 +197,7 @@
     ,
     {
         "id":19,
-        "image":"../src/assets/sopa2.jpg",
+        "image":"../src/assets/bigsopa4.jpg",
         "name":"Sopa",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -208,8 +208,8 @@
     ,
     {
         "id":20,
-        "image":"../src/assets/wati2.jpg",
-        "name":"Wati",
+        "image":"../src/assets/bigcum4.jpg",
+        "name":"Cumm",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",

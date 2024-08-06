@@ -1,18 +1,22 @@
 import React, { useEffect, useState } from 'react'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import flowerpot from "../assets/flowerpot.jpg"
-import whitepot from "../assets/whitepot.jpg"
-import amet from "../assets/amet.jpg"
-import pot from "../assets/pot.jpg"
-import chair from "../assets/chair.jpg"
-import table from "../assets/table.jpg"
 import one from "../assets/one.png"
 import two from "../assets/two.png"
 import { Link } from 'react-router-dom'
 
 
+
 export const Arrial = () => {
+    const[card,setCard]=useState([])
+    useEffect(()=>{
+        fetch("Cards.json").then((response)=>{
+            return response.json()
+            }).then((result)=>{
+            setCard(result)
+            })
+    })
+  
   return (
     <>
         <div className="arrial_main">
@@ -24,12 +28,15 @@ export const Arrial = () => {
                     <h1>Slider</h1>
                 </div>
                 <div className="arrial_cards grid grid-cols-3 grid-rows-2">
-                    <Arrial_card image={flowerpot} name='Fiamond Helo Stud Doneco' price='$375.00'/>
-                    <Arrial_card image={table} name='Biamond Helo Stud Doneco' price='$300.00'/>
-                    <Arrial_card image={whitepot} name='Diamond Helo Stud Doneco' price='$320.00'/>        
-                    <Arrial_card image={chair} name='Acamond Helo Stud Doneco' price='$230.00'/>
-                    <Arrial_card image={pot} name='Ciamond Helo Stud Doneco' price='$290.00'/>
-                    <Arrial_card image={amet} name='Diamond Helo Stud Doneco' price='$370.00'/>
+                    {card.map((item)=>{
+                        return(
+                            <Link to={`/productsdetails/${item.id}`}>
+                            <Arrial_card image={item.image} name={item.name} price={item.price}/>
+                            </Link>
+                        )
+
+                    })}
+                    
                 </div>
             </div>
             <div className="arrial_bottom grid grid-cols-2 my-32">
@@ -63,9 +70,7 @@ export function Arrial_card(props){
     })
     return(
         <>
-            
-            <Link to="/productsdetails">
-            <div className="card_main mx-3">
+            <div className="card_main mx-10">
                 <div className={`${val==1?"GIRD":""}`}>
                     <div className='flex justify-center items-center'>  <img className='center_img text-center' src={props.image} alt={props.image} /></div>
                     <div className='py-1'>
@@ -75,7 +80,6 @@ export function Arrial_card(props){
                     </div>
                 </div>
             </div>
-            </Link>
         </>
     )
 }

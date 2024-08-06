@@ -3,10 +3,10 @@ import man1 from "../assets/man1.png"
 import man2 from "../assets/man2.png"
 import man3 from "../assets/man3.png"
 import { Arrial_card } from './Arrial'
-import greenpot from "../assets/greenpot.jpg";
-import chair_1 from "../assets/chair_1.jpg";
-import topl from "../assets/topl.jpg";
-import lamp from "../assets/lamp.jpg";
+import greenpot from "../assets/bigflowerpot1.jpg";
+import chair_1 from "../assets/bigchair1.jpg";
+import topl from "../assets/bigamet2.jpg";
+import lamp from "../assets/biglamp1.jpg";
 
 
 

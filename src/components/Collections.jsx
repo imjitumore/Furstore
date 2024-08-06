@@ -12,18 +12,17 @@ import { IoGrid } from "react-icons/io5";
 import { BsFillGrid3X3GapFill } from "react-icons/bs";
 import { TfiLayoutGrid4Alt } from "react-icons/tfi";
 import { CiGrid31 } from "react-icons/ci";
-//import { BrowserRouter, Route, Routes , Link } from 'react-router-dom'
 import { Footer } from "./Footer";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
-export const Collections = (props) => {
+export const Collections = ({data}) => {
   return (
     <>
       <Navbar />
       <Bookshelf />
       <Stocks />
-      <Allproducts data={props.data} />
+      <Allproducts data={data} />
       <Tags/>
       <Footer />
     </>
@@ -116,15 +115,16 @@ function Allproducts(props) {
             value == 2 ? "changeGrid2" : ""
           } ${value == 1 ? "changeGri1" : ""}`}
         >
-          {props.data.map((val) => (
-            <Link to={`/productdetails/${val.id}`} key={val.id}>
+          {props.data.map((val) => {
+            return(
+            <Link to={`/productsdetails/${val.id}`} key={val.id}>
               <Arrial_card
                 image={val.image}
                 name={val.name}
                 price={val.price}
               />
             </Link>
-          ))}
+          )})}
         </div>
       </div>
     </>

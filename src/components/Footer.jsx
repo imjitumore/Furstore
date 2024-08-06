@@ -1,6 +1,5 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { faMagnifyingGlass , faCartShopping, faLocation  } from '@fortawesome/free-solid-svg-icons'
 import {  faEnvelope, faLocationDot, faMobile, faVoicemail , } from '@fortawesome/free-solid-svg-icons'
 import logo from "../assets/Logo-578.png"
 import { faFacebook, faInstagram, faPinterest, faTwitter } from '@fortawesome/free-brands-svg-icons'
