@@ -7,6 +7,10 @@ import greenpot from "../assets/bigflowerpot1.jpg";
 import chair_1 from "../assets/bigchair1.jpg";
 import topl from "../assets/bigamet2.jpg";
 import lamp from "../assets/biglamp1.jpg";
+import pot from "../assets/bigpot3.jpg";
+import table from "../assets/bigtable3.jpg";
+import latkan from "../assets/biglatkan2.jpg";
+import lamp4 from "../assets/biglamp4.jpg";
 
 
 
@@ -37,6 +41,27 @@ export const Testimonil = () => {
         name:"Ciamond Helo Stud Doneco",
         price:"$230"
       }
+      ,{
+        images:pot,
+        name:"Fiamond Helo Stud Doneco",
+        price:"$330"
+      },
+      {
+        images:table,
+        name:"Acamond Helo Stud Doneco",
+        price:"$200"
+      }
+      
+      ,{
+        images:latkan,
+        name:"Fiamond Helo Stud Doneco",
+        price:"$330"
+      },
+      {
+        images:lamp4,
+        name:"Acamond Helo Stud Doneco",
+        price:"$200"
+      }
     ]
   )
 
@@ -66,7 +91,8 @@ export const Testimonil = () => {
             <div className="flash_title  text-center my-5 ">
                 <p className=' text-6xl main_text' >Flash Deals</p>
             </div>
-            <div className="flash_main grid grid-cols-4 " >
+           <div>
+           <div className="flash_main" >
               {proData.map((val)=>{
                 return <Arrial_card key={val.id}
                  image={val.images}
@@ -75,6 +101,7 @@ export const Testimonil = () => {
                />
               })}
             </div>
+           </div>
         </div>
     </>
   )

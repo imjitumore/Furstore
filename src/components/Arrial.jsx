@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import one from "../assets/one.png"
 import two from "../assets/two.png"
@@ -30,7 +30,7 @@ export const Arrial = () => {
                 <div className="arrial_cards grid grid-cols-3 grid-rows-2">
                     {card.map((item)=>{
                         return(
-                            <Link to={`/productsdetails/${item.id}`}>
+                            <Link to={`/productsdetails/${item.image}`}>
                             <Arrial_card image={item.image} name={item.name} price={item.price}/>
                             </Link>
                         )
@@ -70,11 +70,11 @@ export function Arrial_card(props){
     })
     return(
         <>
-            <div className="card_main mx-10">
+            <div className="card_main mx-8" >
                 <div className={`${val==1?"GIRD":""}`}>
                     <div className='flex justify-center items-center'>  <img className='center_img text-center' src={props.image} alt={props.image} /></div>
                     <div className='py-1'>
-                        <div className="star text-center py-2 text-[#Ffd700] text-sm"><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></div>
+                        <div className="star text-center py-2 text-[#Ffd700] justify-center flex text-sm gap-1"><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStarHalf} /> </div>
                         <p className='card_texts text-center text-lg'>{props.name}</p>
                         <p className='card_price text-center text-sm py-2'>{props.price}</p>
                     </div>

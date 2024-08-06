@@ -63,3 +63,10 @@ input,textarea
     background-color: #387581;
     color: white;
 }
+
+.flash_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}

@@ -49,11 +49,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/collections" element={<Collections data={data} />} />
         <Route path="/productsdetails/:id" element={<ProductsDetails data={data} />}/>
-        {/* <Route path="/Arrial" element={<Arrial data={card} />} /> */}
-        {/* <Route path="/productsdetails/:name" element={<ProductsDetails data={card} />}/> */}
         <Route path="/contactus" element={<ContactUs/>} />
         <Route path="/blog" element={<Blog data={blog} />}/>
-        <Route path="/blogdetails/:name" element={<BlogDetails data={blog}/>}/>
+        <Route path="/blogdetails/:id" element={<BlogDetails data={blog}/>}/>
       </Routes>
     </BrowserRouter>
     </>
