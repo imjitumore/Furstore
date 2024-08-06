@@ -1,86 +1,121 @@
-import React, { useEffect, useState } from 'react'
-import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import one from "../assets/one.png"
-import two from "../assets/two.png"
-import { Link } from 'react-router-dom'
-
-
+import React, { useEffect, useState } from "react";
+import { faStar, faStarHalf } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import one from "../assets/one.png";
+import two from "../assets/two.png";
+import { Link } from "react-router-dom";
+import slide1 from "../assets/slide1.png";
+import slide2 from "../assets/slide2.png";
+import slide3 from "../assets/slide3.png";
 
 export const Arrial = () => {
-    const[card,setCard]=useState([])
-    useEffect(()=>{
-        fetch("Cards.json").then((response)=>{
-            return response.json()
-            }).then((result)=>{
-            setCard(result)
-            })
-    })
-  
+  const [card, setCard] = useState([]);
+  useEffect(() => {
+    fetch("Cards.json")
+      .then((response) => {
+        return response.json();
+      })
+      .then((result) => {
+        setCard(result);
+      });
+  });
+
+
+  const img = [
+    {
+      image: slide1,
+    },
+    {
+      image: slide2,
+    },
+    {
+      image: slide3,
+    },
+  ];
+
   return (
     <>
-        <div className="arrial_main">
-            <div className="arrial_title text-center my-20">
-                <h1 className='main_text text-5xl '>New Arrial</h1>
-            </div>
-            <div className="arrial_center">
-                <div className="arrial_slider">
-                    <h1>Slider</h1>
-                </div>
-                <div className="arrial_cards grid grid-cols-3 grid-rows-2">
-                    {card.map((item)=>{
-                        return(
-                            <Link to={`/productsdetails/${item.image}`}>
-                            <Arrial_card image={item.image} name={item.name} price={item.price}/>
-                            </Link>
-                        )
-
-                    })}
-                    
-                </div>
-            </div>
-            <div className="arrial_bottom grid grid-cols-2 my-32">
-                <div className="arrial_one mx-3">
-                    <div className="center relative">
-                    <img src={one} alt="" />
-                    <p className='arrial_two_text text-4xl absolute top-40 px-10'>SIDE TABLE</p>
-                    <p  className='arrial_two_textt cursor-pointer absolute top-52 px-10'>Discovery now</p>
-                    </div>
-                    
-                </div>
-                <div className="arrial_two mx-3">
-                    <div className="center relative">
-                    <img  src={two} alt="" />
-                    <p className=' text-4xl arrial_two_text absolute top-40 px-10'>HANGING LIGHT</p>
-                    <p className='arrial_two_textt cursor-pointer absolute top-52 px-10'>Discovery now</p>
-                    </div>
-                </div>
-            </div>
-            
+      <div className="arrial_main">
+        <div className="arrial_title text-center my-20">
+          <h1 className="main_text text-5xl ">New Arrial</h1>
         </div>
-    </>
-  )
-}
-
-export function Arrial_card(props){
-
-    const[val,setVal]=useState()
-    useEffect(()=>{
-        setVal(1)
-    })
-    return(
-        <>
-            <div className="card_main mx-8" >
-                <div className={`${val==1?"GIRD":""}`}>
-                    <div className='flex justify-center items-center'>  <img className='center_img text-center' src={props.image} alt={props.image} /></div>
-                    <div className='py-1'>
-                        <div className="star text-center py-2 text-[#Ffd700] justify-center flex text-sm gap-1"><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar}/><FontAwesomeIcon icon={faStarHalf} /> </div>
-                        <p className='card_texts text-center text-lg'>{props.name}</p>
-                        <p className='card_price text-center text-sm py-2'>{props.price}</p>
-                    </div>
-                </div>
+        <div className="arrial_center">
+          <div className="arrial_slider">
+            
+          </div>
+          <div className="arrial_cards grid grid-cols-3 grid-rows-2">
+            {card.map((item) => {
+              return (
+                <Link to={`/productsdetails/${item.image}`}>
+                  <Arrial_card
+                    image={item.image}
+                    name={item.name}
+                    price={item.price}
+                  />
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+        <div className="arrial_bottom grid grid-cols-2 my-32">
+          <div className="arrial_one mx-3">
+            <div className="center relative">
+              <img src={one} alt="" />
+              <p className="arrial_two_text text-4xl absolute top-40 px-10">
+                SIDE TABLE
+              </p>
+              <p className="arrial_two_textt cursor-pointer absolute top-52 px-10">
+                Discovery now
+              </p>
             </div>
-        </>
-    )
-}
+          </div>
+          <div className="arrial_two mx-3">
+            <div className="center relative">
+              <img src={two} alt="" />
+              <p className=" text-4xl arrial_two_text absolute top-40 px-10">
+                HANGING LIGHT
+              </p>
+              <p className="arrial_two_textt cursor-pointer absolute top-52 px-10">
+                Discovery now
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
+export function Arrial_card(props) {
+  const [val, setVal] = useState();
+  useEffect(() => {
+    setVal(1);
+  });
+  return (
+    <>
+      <div className="card_main mx-8">
+        <div className={`${val == 1 ? "GIRD" : ""}`}>
+          <div className="flex justify-center items-center">
+            {" "}
+            <img
+              className="center_img text-center"
+              src={props.image}
+              alt={props.image}
+            />
+          </div>
+          <div className="py-1">
+            <div className="star text-center py-2 text-[#Ffd700] justify-center flex text-sm gap-1">
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStarHalf} />{" "}
+            </div>
+            <p className="card_texts text-center text-lg">{props.name}</p>
+            <p className="card_price text-center text-sm py-2">{props.price}</p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

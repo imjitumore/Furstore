@@ -8,30 +8,29 @@
     padding: 0;
 }
 
-          /* {
-                "image":blog8,
-                "name":"Elementum orci sollicitudin non"
-            }
-            ,
-            {
-                "image":blog9,
-                "name":"Quisque dictum leo venenatis"
-            }
-            ,
-            {
-                "image":blog10,
-                "name":"Duis ipsum lorem cursus ferment"
-            }
-            ,
-            {
-                "image":blog11,
-                "name":"Consectetur adipiscing elit"
-            }
-            ,
-            {
-                "image":blog12,
-                "name":"Proin tincidunt ipsum nec"
-            } */
 
+:root{
+    --sb-track-color: #ffffff;
+    --sb-thumb-color: #6BAF8D;
+    --sb-size: 10px;
+    --sb-sizee: 4px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: var(--sb-size);
+    height:var(--sb-sizee)
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 30px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 30px;
+    
+  }
+  
 
-
+         
