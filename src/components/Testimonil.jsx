@@ -3,14 +3,7 @@ import man1 from "../assets/man1.png"
 import man2 from "../assets/man2.png"
 import man3 from "../assets/man3.png"
 import { Arrial_card } from './Arrial'
-import greenpot from "../assets/bigflowerpot1.jpg";
-import chair_1 from "../assets/bigchair1.jpg";
-import topl from "../assets/bigamet2.jpg";
-import lamp from "../assets/biglamp1.jpg";
-import pot from "../assets/bigpot3.jpg";
-import table from "../assets/bigtable3.jpg";
-import latkan from "../assets/biglatkan2.jpg";
-import lamp4 from "../assets/biglamp4.jpg";
+import { Link } from 'react-router-dom'
 
 
 
@@ -19,63 +12,143 @@ export const Testimonil = () => {
   const [data,setData]=useState()
   
 
-  const [proData,setProData]=useState(
-    [
+  const [proData,setProData]=useState
+    ([
       {
-        images:greenpot,
-        name:"Fiamond Helo Stud Doneco",
-        price:"$330"
-      },
-      {
-        images:chair_1,
-        name:"Acamond Helo Stud Doneco",
-        price:"$200"
-      },
-      {
-        images:topl,
-        name:"Diamond Helo Stud Doneco",
-        price:"$230"
-      },
-      {
-        images:lamp,
-        name:"Ciamond Helo Stud Doneco",
-        price:"$230"
+          "id":1,
+          "image":"../src/assets/bigcum2.jpg",
+          "name":"Cum2",
+          "price":"$98.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"5"
       }
-      ,{
-        images:pot,
-        name:"Fiamond Helo Stud Doneco",
-        price:"$330"
+      ,
+      {
+          "id":2,
+          "image":"../src/assets/bigSopa2.jpg",
+          "name":"Sopa2",
+          "price":"$200.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"8"
+      }
+      ,
+      {
+          "id":3,
+          "image":"../src/assets/bigclock4.jpg",
+          "name":"Clock4",
+          "price":"$70.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"4"
+      }
+      ,
+      {
+          "id":4,
+          "image":"../src/assets/biglatkan2.jpg",
+          "name":"Latkan2",
+          "price":"$120.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"7"
+      }
+      ,    {
+          "id":5,
+          "image":"../src/assets/bigchair3.jpg",
+          "name":"Chair3",
+          "price":"$98.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"5"
+      }
+      ,
+      {
+          "id":6,
+          "image":"../src/assets/bigamet2.jpg",
+          "name":"Amet2",
+          "price":"$200.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"8"
       },
       {
-        images:table,
-        name:"Acamond Helo Stud Doneco",
-        price:"$200"
+          "id":7,
+          "image":"../src/assets/bigchair_2.jpg",
+          "name":"Chair_2",
+          "price":"$98.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"5"
       }
-      
-      ,{
-        images:latkan,
-        name:"Fiamond Helo Stud Doneco",
-        price:"$330"
-      },
+      ,
       {
-        images:lamp4,
-        name:"Acamond Helo Stud Doneco",
-        price:"$200"
+          "id":8,
+          "image":"../src/assets/bigflowerpot3.jpg",
+          "name":"Flower pot3",
+          "price":"$200.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"8"
       }
-    ]
-  )
+      ,
+      {
+          "id":9,
+          "image":"../src/assets/bigpot2.jpg",
+          "name":"Pot2",
+          "price":"$70.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"4"
+      }
+      ,
+      {
+          "id":10,
+          "image":"../src/assets/bigflowerpot1.jpg",
+          "name":"Flower pot1",
+          "price":"$120.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"7"
+      }
+      ,    {
+          "id":11,
+          "image":"../src/assets/bigclock2.jpg",
+          "name":"Clock2",
+          "price":"$98.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"5"
+      }
+      ,
+      {
+          "id":12,
+          "image":"../src/assets/bigflowerpot3.jpg",
+          "name":"Flower pot3",
+          "price":"$200.23",
+          "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+          "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+          "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+          "Quantity":"8"
+      }
+  ])
 
     
   
   return (
     <>
-    {/* <h1>{
-      data.map((val)=>{
-        return(
-          <h1>{val.image}</h1>
-        )
-      })
-    }</h1> */}
+  
         <div className="testimonals_main my-20">
         <div className="testimonal_title">
             <h1 className='main_text text-6xl text-center my-10'>Testimonilas</h1>
@@ -93,13 +166,18 @@ export const Testimonil = () => {
             </div>
            <div>
            <div className="flash_main" >
-              {proData.map((val)=>{
-                return <Arrial_card key={val.id}
-                 image={val.images}
-                 name={val.name}
-                 price={val.price}
-               />
-              })}
+           {proData.map((val) => {     
+              return (
+                <Link to={`/productsdetails/${val.name}`}>
+                <Arrial_card
+                  key={val.id}
+                  image={val.image}
+                  name={val.name}
+                  price={val.price}
+                />
+                </Link>
+              );
+            })}
             </div>
            </div>
         </div>

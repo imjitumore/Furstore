@@ -3,14 +3,15 @@ import { Link } from "react-router-dom";
 import { Navbar } from "./Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { Footer } from "./Footer";
 
 export const Blog = ({ data }) => {
   return (
     <>
       <div>
       <Navbar />
-              <h1 className="font-bold text-3xl text-center">NEWS</h1>
-              <div className="text-[12px] flex gap-2 my-4 justify-center">
+              <h1 className="font-bold text-3xl my-10 text-center">NEWS</h1>
+              <div className="text-[12px] flex gap-2  justify-center">
                 <FontAwesomeIcon icon={faHome} />
                 <p className="text-center">Home News</p>
               </div>
@@ -45,6 +46,7 @@ export const Blog = ({ data }) => {
           );
         })}
       </div>
+      <Footer/>
     </>
   );
 };

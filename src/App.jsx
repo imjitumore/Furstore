@@ -27,6 +27,7 @@ function App() {
 
 
   useEffect(()=>{
+
     fetch("Data.json").then((response)=>{
       return response.json()
     }).then((result)=>{
@@ -40,7 +41,6 @@ function App() {
     })
 
   },[blog,data])
-  
 
   return (
     <>
@@ -48,7 +48,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/collections" element={<Collections data={data} />} />
-        <Route path="/productsdetails/:id" element={<ProductsDetails data={data} />}/>
+        <Route path="/productsdetails/:name" element={<ProductsDetails data={data} />}/>
         <Route path="/contactus" element={<ContactUs/>} />
         <Route path="/blog" element={<Blog data={blog} />}/>
         <Route path="/blogdetails/:id" element={<BlogDetails data={blog}/>}/>

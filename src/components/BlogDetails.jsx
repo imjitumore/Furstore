@@ -6,8 +6,7 @@ import { Footer } from "./Footer";
 export const BlogDetails = ({ data }) => {
   const { id } = useParams();
   const [product, setProduct] = useState();
-
-  console.log(product);
+  
   useEffect(() => {
     if (data.length > 0) {
       const findProduct = data.find((item) => item.id === parseInt(id));

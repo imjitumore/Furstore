@@ -46,7 +46,7 @@ export const Arrial = () => {
           <div className="arrial_cards grid grid-cols-3 grid-rows-2">
             {card.map((item) => {
               return (
-                <Link to={`/productsdetails/${item.id}`}>
+                <Link to={`/productsdetails/${item.name}`}>
                   <Arrial_card
                     image={item.image}
                     name={item.name}
@@ -93,10 +93,9 @@ export function Arrial_card(props) {
   });
   return (
     <>
-      <div className="card_main mx-8">
+      <div className="card_main mx-6">
         <div className={`${val == 1 ? "GIRD" : ""}`}>
           <div className="flex justify-center items-center">
-            {" "}
             <img
               className="center_img text-center"
               src={props.image}

@@ -24,23 +24,27 @@
 .products_container
 {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);   
 }
 
 .changeGrid
 {
     grid-template-columns: repeat(3,1fr);
+    margin: 2em 8em !important;
+    gap: 2em;
 }
 
 .changeGrid2
 {
     grid-template-columns: repeat(2,1fr);
-    
+    margin: 2em 12em !important;
+    gap: 2em;
 }
 
 .changeGrid1
 {
-    grid-template-columns: repeat(1,1fr);
+    display: flex;
+    margin: 0 2em !important;
 }
 
 .GRID

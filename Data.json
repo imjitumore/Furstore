@@ -2,7 +2,7 @@
     {
         "id":1,
         "image":"../src/assets/bigamet2.jpg",
-        "name":"Amet",
+        "name":"Amet2",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -13,7 +13,7 @@
     {
         "id":2,
         "image":"../src/assets/bigchair2.jpg",
-        "name":"Chair",
+        "name":"Chair2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -24,7 +24,7 @@
     {
         "id":3,
         "image":"../src/assets/bigflowerpot2.jpg",
-        "name":"Flower pot",
+        "name":"Flower pot2",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -35,7 +35,7 @@
     {
         "id":4,
         "image":"../src/assets/bigclock3.jpg",
-        "name":"Clock",
+        "name":"Clock3",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -45,7 +45,7 @@
     ,    {
         "id":5,
         "image":"../src/assets/bigpot3.jpg",
-        "name":"Pot",
+        "name":"Pot3",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -56,7 +56,7 @@
     {
         "id":6,
         "image":"../src/assets/bigpot2.jpg",
-        "name":"Pot",
+        "name":"Pot2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -67,7 +67,7 @@
     {
         "id":7,
         "image":"../src/assets/bigtable2.jpg",
-        "name":"Table",
+        "name":"Table2",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -78,7 +78,7 @@
     {
         "id":8,
         "image":"../src/assets/bigclock2.jpg",
-        "name":"Clock",
+        "name":"Clock2",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -89,7 +89,7 @@
     {
         "id":9,
         "image":"../src/assets/bigcum2.jpg",
-        "name":"Cum",
+        "name":"Cum2",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -100,7 +100,7 @@
     {
         "id":10,
         "image":"../src/assets/bigushi2.jpg",
-        "name":"Ushi",
+        "name":"Ushi2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -111,7 +111,7 @@
     {
         "id":11,
         "image":"../src/assets/bigflowerpot4.jpg",
-        "name":"Pot",
+        "name":"Pot4",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -122,7 +122,7 @@
     {
         "id":12,
         "image":"../src/assets/biglamp4.jpg",
-        "name":"Lamp",
+        "name":"Lamp4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -132,7 +132,7 @@
     ,    {
         "id":13,
         "image":"../src/assets/bigchair5.jpg",
-        "name":"Chair",
+        "name":"Chair5",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -143,7 +143,7 @@
     {
         "id":14,
         "image":"../src/assets/biglatkan2.jpg",
-        "name":"Latkan",
+        "name":"Latkan2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -154,7 +154,7 @@
     {
         "id":15,
         "image":"../src/assets/bigsopa3.jpg",
-        "name":"Sopa",
+        "name":"Sopa3",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -165,7 +165,7 @@
     {
         "id":16,
         "image":"../src/assets/bigflowerpot4.jpg",
-        "name":"Green pot",
+        "name":"Flower pot4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -175,8 +175,8 @@
     ,
     {
         "id":17,
-        "image":"../src/assets/bigpot4.jpg",
-        "name":"Plant",
+        "image":"../src/assets/bigpot1.jpg",
+        "name":"Pot1",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -187,7 +187,7 @@
     {
         "id":18,
         "image":"../src/assets/bigsopa_2.jpg",
-        "name":"Sopa",
+        "name":"Sopa2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -198,7 +198,7 @@
     {
         "id":19,
         "image":"../src/assets/bigsopa4.jpg",
-        "name":"Sopa",
+        "name":"Sopa4",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
@@ -209,12 +209,121 @@
     {
         "id":20,
         "image":"../src/assets/bigcum4.jpg",
-        "name":"Cumm",
+        "name":"Cum4",
+        "price":"$120.23",
+        "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+        "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+        "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+        "Quantity":"7"
+    },
+    {
+        "id":21,
+        "image":"../src/assets/bigamet1.jpg",
+        "name":"Amet1",
+        "price":"$70.23",
+        "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+        "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+        "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+        "Quantity":"4"
+    }
+    ,
+    {
+        "id":22,
+        "image":"../src/assets/bigchair1.jpg",
+        "name":"Chair1",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
         "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
         "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
         "Quantity":"7"
     }
+    ,    {
+        "id":23,
+        "image":"../src/assets/bigpot1.jpg",
+        "name":"Pot1",
+        "price":"$98.23",
+        "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+        "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+        "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+        "Quantity":"5"
+    }
+    ,
+    {
+        "id":24,
+        "image":"../src/assets/bigClock1.jpg",
+        "name":"Clock1",
+        "price":"$200.23",
+        "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+        "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+        "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+        "Quantity":"8"
+    }
+    ,
+    {
+        "id":25,
+        "image":"../src/assets/bigflowerpot1.jpg",
+        "name":"Flower pot1",
+        "price":"$70.23",
+        "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+        "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+        "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+        "Quantity":"4"
+    }
+    ,
+    {
+        "id":26,
+        "image":"../src/assets/bigcum1.jpg",
+        "name":"Cum1",
+        "price":"$120.23",
+        "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+        "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+        "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+        "Quantity":"7"
+    }
+    ,
+    {
+        "id":27,
+        "image":"../src/assets/bigpot3.jpg",
+        "name":"Pot3",
+        "price":"$98.23",
+        "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+        "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+        "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+        "Quantity":"5"
+    }
+    ,
+    {
+        "id":28,
+        "image":"../src/assets/bigsopa_2.jpg",
+        "name":"Sopa_2",
+        "price":"$200.23",
+        "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+        "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+        "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+        "Quantity":"8"
+    }
+    ,
+    {
+        "id":29,
+        "image":"../src/assets/bigsopa3.jpg",
+        "name":"Sopa3",
+        "price":"$70.23",
+        "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+        "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+        "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+        "Quantity":"4"
+    }
+    ,
+    {
+        "id":30,
+        "image":"../src/assets/bigcum3.jpg",
+        "name":"Cum3",
+        "price":"$120.23",
+        "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+        "Tags":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+        "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+        "Quantity":"7"
+    }
+
 
 ]

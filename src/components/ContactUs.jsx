@@ -24,7 +24,6 @@ export const ContactUs = () => {
             height="600"
             style={{ border: 0 }}
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
         <div className="form grid grid-cols-2 items-center mx-10 gap-8 my-10">

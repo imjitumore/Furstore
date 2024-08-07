@@ -297,8 +297,8 @@ export const Products = (props) => {
             </ul>
           </div>
 
-          <div className="products_center grid grid-cols-3 mx-2">
-            <div className="product_one grid grid-cols-2">
+          <div className="products_center grid grid-cols-3 mx-4">
+            <div className="product_one">
               {
                 state1.map((val)=>{
                   return(
@@ -312,8 +312,7 @@ export const Products = (props) => {
               }
             </div>
 
-            <div className="products_two flex justify-center mx-auto">
-              <h1 className="text-6xl">
+            <div className="products_two flex justify-center">
               {
                 state2.map((val)=>{
                   return(
@@ -325,10 +324,8 @@ export const Products = (props) => {
                   )
                 })
               }
-              
-              </h1>
             </div>
-            <div className="product_three grid grid-cols-2">
+            <div className="product_three">
             {
                 state3.map((val)=>{
                   return(

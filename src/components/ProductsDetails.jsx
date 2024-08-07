@@ -6,18 +6,22 @@ import { Cards } from "./Home";
 import payment from "../assets/payment.png";
 import { faClock, faStar, faTruck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { RelatedProducts } from "./Collections";
+import { Link } from "react-router-dom";
+import { Arrial_card } from "./Arrial";
 
 export const ProductsDetails = ({ data }) => {
-  const { id } = useParams();
+  const { name } = useParams();
   const [product, setProduct] = useState(null);
   const [val, setVal] = useState(null);
 
   useEffect(() => {
     if (data.length > 0) {
-      const findProduct = data.find((item) => item.id === parseInt(id));
+      const findProduct = data.find((item) => item.name === name);
       setProduct(findProduct);
     }
-  }, [data, id, val]);
+  }, [data, name, val]);
+
   if (!product) {
     return <p>Loading...</p>;
   }
@@ -25,7 +29,7 @@ export const ProductsDetails = ({ data }) => {
   return (
     <>
       <Navbar />
-      <div className="containerr grid grid-cols-2 my-20 ">
+      <div className="containerr grid grid-cols-2 my-24">
         <div className="mx-12">
           <img className="w-full" src={product.image} alt="" />
         </div>
@@ -110,7 +114,6 @@ export const ProductsDetails = ({ data }) => {
           </div>
         </div>
       </div>
-      <CustomerView />
       <div className="card grid grid-cols-3 gap-3 py-10 mx-10">
         <Cards
           name="Extra Shipping"
@@ -126,6 +129,10 @@ export const ProductsDetails = ({ data }) => {
         />
       </div>
 
+      <CustomerView />
+      <RelatedProducts />
+      <hr />
+      <Showcase />
       <Footer />
     </>
   );
@@ -144,7 +151,141 @@ function CustomerView() {
           <FontAwesomeIcon icon={faStar} />
         </div>
         <p className="text-sm">Be the first to write a review</p>
-        <button className="text-sm text-white py-3 px-24 rounded-md font-bold my-3 bg-[#387581]">Write A Review</button>
+        <button className="text-sm text-white py-3 px-24 rounded-md font-bold my-3 bg-[#387581]">
+          Write A Review
+        </button>
+      </div>
+    </>
+  );
+}
+
+function Showcase() {
+  const [data, setData] = useState([
+    {
+      id: "1",
+      image: "../src/assets/bigamet3.jpg",
+      name: "Amet3",
+      price: "$98.23",
+      discription:
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+      Tags: "13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+      Category:
+        "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+      Quantity: "5",
+    },
+    {
+      id: "2",
+      image: "../src/assets/bigtable3.jpg",
+      name: "Table3",
+      price: "$200.23",
+      discription:
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+      Tags: "13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+      Category:
+        "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+      Quantity: "8",
+    },
+    {
+      id: "3",
+      image: "../src/assets/bigchair5.jpg",
+      name: "Chair5",
+      price: "$70.23",
+      discription:
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+      Tags: "13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+      Category:
+        "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+      Quantity: "4",
+    },
+    {
+      id: "4",
+      image: "../src/assets/bigclock3.jpg",
+      name: "Clock3",
+      price: "$120.23",
+      discription:
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+      Tags: "13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+      Category:
+        "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+      Quantity: "7",
+    },
+    {
+      id: "5",
+      image: "../src/assets/bigchair_1.jpg",
+      name: "chair_1",
+      price: "$98.23",
+      discription:
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+      Tags: "13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+      Category:
+        "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+      Quantity: "5",
+    },
+    {
+      id: "6",
+      image: "../src/assets/bigushi3.jpg",
+      name: "Ushi3",
+      price: "$200.23",
+      discription:
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+      Tags: "13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+      Category:
+        "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+      Quantity: "8",
+    },
+
+    {
+      id: "7",
+      image: "../src/assets/bigflowerpot4.jpg",
+      name: "Flower Pot4",
+      price: "$98.23",
+      discription:
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+      Tags: "13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+      Category:
+        "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+      Quantity: "5",
+    },
+    {
+      id: "8",
+      image: "../src/assets/bigcum3.jpg",
+      name: "Cum3",
+      price: "$200.23",
+      discription:
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+      Tags: "13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+      Category:
+        "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+      Quantity: "8",
+    },
+  ]);
+  return (
+    <>
+      <div className=" my-20">
+        <div className="flash_title  text-center my-5 ">
+          <p className=" text-3xl main_text py-6">You Might Also Like</p>
+        </div>
+        <div className="text-center ">
+          <div className="grid grid-cols-4 items-center mx-6 gap-2 my-4">
+            {data.map((val) => {
+              return (
+                <Link to={`/productsdetails/${val.name}`}>
+                  <Arrial_card
+                    key={val.id}
+                    image={val.image}
+                    name={val.name}
+                    price={val.price}
+                  />
+                </Link>
+              );
+            })}
+          </div>
+          <Link to={"/collections"}>
+            <button className="text-md text-white py-4 px-14 rounded-md font-bold my-5 bg-[#387581]">
+              View More Items
+            </button>
+          </Link>
+        </div>
       </div>
     </>
   );
