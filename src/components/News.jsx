@@ -37,7 +37,7 @@ export const News = () => {
   return (
 
     <>
-      <div className="news_main my-20">
+      <div className="news_main my-20 w-[100%]">
         <div className="main_text new_title text-6xl text-center my-10">
           Latest News
         </div>
@@ -94,7 +94,7 @@ function LatestNews(props) {
             </div>
             <div className="news_right">
               <p className="text-md my-3">{props.date}</p>
-              <p className="text__news text-5xl my-6">{props.title}</p>
+              <p className="text__news text-4xl my-6">{props.title}</p>
               <p className="text_para text-xl  my-4">{props.para}</p>
             </div>
           </div>

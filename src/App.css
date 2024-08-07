@@ -1,4 +1,10 @@
 
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .navbar_logo img{
   width: 10em;
 }
@@ -43,6 +49,7 @@ li:hover::after
   align-items: center;
 }
 
+
 .navbar_menu
 {
   display:flex;
@@ -52,7 +59,7 @@ li:hover::after
 
 .card_main 
 {
- min-width: 240px !important;
+ min-width: 210px !important;
 }
 
 .center_img{

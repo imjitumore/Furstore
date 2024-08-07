@@ -34,7 +34,7 @@ export const Navbar = () => {
               <Link to="/collections">Collection</Link>
             </li>
             {/* <li><Link to={`/productsdetails/${Math.floor(Math.random()*10)}`} >Products</Link></li> */}
-            {/* <li><Link to={'/productsdetails/Chair 2'}>Products</Link></li> */}
+            <li><Link to={'/productsdetails/Pot1'}>Products</Link></li>
             <li><Link to='/contactus'>Other Pages</Link></li>
             <li><Link to='/blog'>Blog</Link></li>
           </ul>
