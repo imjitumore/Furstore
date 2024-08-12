@@ -4,6 +4,18 @@ import man2 from "../assets/man2.png"
 import man3 from "../assets/man3.png"
 import { Arrial_card } from './Arrial'
 import { Link } from 'react-router-dom'
+import bigcum2 from "../assets/bigcum2.jpg"
+import bigsopa2 from "../assets/bigsopa2.jpg"
+import bigclock4 from "../assets/bigclock4.jpg"
+import bigclock2 from "../assets/bigclock2.jpg"
+import biglatkan2 from "../assets/biglatkan2.jpg"
+import bigchair3 from "../assets/bigchair3.jpg"
+import bigchair_2 from "../assets/bigchair_2.jpg"
+import bigamet2 from "../assets/bigamet2.jpg"
+import bigflowerpot1 from "../assets/bigflowerpot1.jpg"
+import bigflowerpot2 from "../assets/bigflowerpot3.jpg"
+import bigflowerpot3 from "../assets/bigflowerpot3.jpg"
+import bigpot2 from "../assets/bigpot2.jpg"
 
 
 
@@ -12,11 +24,10 @@ export const Testimonil = () => {
   const [data,setData]=useState()
   
 
-  const [proData,setProData]=useState
-    ([
+  const proData = [
       {
           "id":1,
-          "image":"../src/assets/bigcum2.jpg",
+          "image":bigcum2,
           "name":"Cum2",
           "price":"$98.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -27,7 +38,7 @@ export const Testimonil = () => {
       ,
       {
           "id":2,
-          "image":"../src/assets/bigSopa2.jpg",
+          "image":bigsopa2,
           "name":"Sopa2",
           "price":"$200.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -38,7 +49,7 @@ export const Testimonil = () => {
       ,
       {
           "id":3,
-          "image":"../src/assets/bigclock4.jpg",
+          "image":bigclock4,
           "name":"Clock4",
           "price":"$70.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -49,7 +60,7 @@ export const Testimonil = () => {
       ,
       {
           "id":4,
-          "image":"../src/assets/biglatkan2.jpg",
+          "image":biglatkan2,
           "name":"Latkan2",
           "price":"$120.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -59,7 +70,7 @@ export const Testimonil = () => {
       }
       ,    {
           "id":5,
-          "image":"../src/assets/bigchair3.jpg",
+          "image":bigchair3,
           "name":"Chair3",
           "price":"$98.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -70,7 +81,7 @@ export const Testimonil = () => {
       ,
       {
           "id":6,
-          "image":"../src/assets/bigamet2.jpg",
+          "image":bigamet2,
           "name":"Amet2",
           "price":"$200.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -80,7 +91,7 @@ export const Testimonil = () => {
       },
       {
           "id":7,
-          "image":"../src/assets/bigchair_2.jpg",
+          "image":bigchair_2,
           "name":"Chair_2",
           "price":"$98.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -91,7 +102,7 @@ export const Testimonil = () => {
       ,
       {
           "id":8,
-          "image":"../src/assets/bigflowerpot3.jpg",
+          "image":bigflowerpot3,
           "name":"Flower pot3",
           "price":"$200.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -102,7 +113,7 @@ export const Testimonil = () => {
       ,
       {
           "id":9,
-          "image":"../src/assets/bigpot2.jpg",
+          "image":bigpot2,
           "name":"Pot2",
           "price":"$70.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -113,7 +124,7 @@ export const Testimonil = () => {
       ,
       {
           "id":10,
-          "image":"../src/assets/bigflowerpot1.jpg",
+          "image":bigflowerpot1,
           "name":"Flower pot1",
           "price":"$120.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -123,7 +134,7 @@ export const Testimonil = () => {
       }
       ,    {
           "id":11,
-          "image":"../src/assets/bigclock2.jpg",
+          "image":bigclock2,
           "name":"Clock2",
           "price":"$98.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -134,7 +145,7 @@ export const Testimonil = () => {
       ,
       {
           "id":12,
-          "image":"../src/assets/bigflowerpot3.jpg",
+          "image":bigflowerpot2,
           "name":"Flower pot3",
           "price":"$200.23",
           "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -142,7 +153,7 @@ export const Testimonil = () => {
           "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
           "Quantity":"8"
       }
-  ])
+  ]
 
     
   
