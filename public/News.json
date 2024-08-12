@@ -31,13 +31,13 @@
     ,
     {
         "id":6,
-        "image":"../src/assets/blog_6.jpg",
+        "image":"./src/assets/blog_6.jpg",
         "name":"Aliquam vitae maximus justo"
     }
     ,
     {
         "id":7,
-        "image":"../src/assets/blog_7.jpg",
+        "image":"./src/assets/blog_7.jpg",
         "name":"Nullam consectetur lacus nec"
     }
     ,
