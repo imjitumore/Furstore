@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/Logo.png";
+import logo from "../assets/Logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMagnifyingGlass,
@@ -23,7 +23,7 @@ export const Navbar = () => {
           >
             {btnval ? <span>&times;</span> : <span>&#9776;</span>}
           </button>
-          <img src={logo} alt="" />
+            <Link to="/"> <img src={logo} alt="" /></Link>
         </div>
         <div className="navbar_main">
           <ul className={`navbar_ul ${btnval ? "ul_block" : ""}`}>
