@@ -40,7 +40,7 @@ export const ProductsDetails = ({ data }) => {
       <Navbar />
       <div className="containerr grid grid-cols-2 my-24">
         <div className="mx-12">
-          <img className="w-full" src={product.image} alt="" />
+          <img className="w-full" src={product.image} alt={product.image} />
         </div>
         <div className="mx-6">
           <p className="text-2xl font-bold py-2">{product.name}</p>

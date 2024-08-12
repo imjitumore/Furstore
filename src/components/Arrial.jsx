@@ -116,7 +116,7 @@ export function Arrial_card(props) {
           <div className="flex justify-center items-center">
             <img
               className="center_img text-center"
-              src={props.image}
+              src={props.image }
               alt={props.image}
             />
           </div>
