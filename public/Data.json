@@ -3,7 +3,7 @@
 [
     {
         "id":1,
-        "image":"assets/bigamet2.jpg",
+        "image":"../assets/bigamet2.jpg",
         "name":"Amet2",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -14,7 +14,7 @@
     ,
     {
         "id":2,
-        "image":"assets/bigchair2.jpg",
+        "image":"../assets/bigchair2.jpg",
         "name":"Chair2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -25,7 +25,7 @@
     ,
     {
         "id":3,
-        "image":"assets/bigflowerpot2.jpg",
+        "image":"../assets/bigflowerpot2.jpg",
         "name":"Flower pot2",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -36,7 +36,7 @@
     ,
     {
         "id":4,
-        "image":"assets/bigclock3.jpg",
+        "image":"../assets/bigclock3.jpg",
         "name":"Clock3",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -79,7 +79,7 @@
     ,
     {
         "id":8,
-        "image":"``assets/bigclock2.jpg",
+        "image":"assets/bigclock2.jpg",
         "name":"Clock2",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
