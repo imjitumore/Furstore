@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "image":"..\imjitumore\Furstorr\src\assets\blog-1.jpg",
+        "image":"../src/assets/blog_1.jpg",
         "name":"Pellensque nunc condentum"
     }
     ,
