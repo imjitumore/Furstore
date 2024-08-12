@@ -25,13 +25,13 @@ function App() {
   const[blog,setBlog]=useState([])
 
   useEffect(()=>{
-    fetch("Data.json").then((response)=>{
+    fetch("./Data.json").then((response)=>{
       return response.json()
     }).then((result)=>{
       setData(result)
     })
   
-    fetch("News.json").then((response)=>{
+    fetch("./News.json").then((response)=>{
       return response.json()
     }).then((result)=>{
       setBlog(result)
