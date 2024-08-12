@@ -1,7 +1,7 @@
 [
     {
         "id":"1",
-        "image":"./src/assets/bigamet1.jpg",
+        "image":"assets/bigamet1.jpg",
         "name":"Amet1",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -12,7 +12,7 @@
     ,
     {
         "id":"2",
-        "image":"./src/assets/bigchair1.jpg",
+        "image":"assets/bigchair1.jpg",
         "name":"Chair1",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -23,7 +23,7 @@
     ,
     {
         "id":"3",
-        "image":"./src/assets/bigflowerpot1.jpg",
+        "image":"assets/bigflowerpot1.jpg",
         "name":"Flower pot1",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
