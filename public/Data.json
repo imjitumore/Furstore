@@ -3,7 +3,7 @@
 [
     {
         "id":1,
-        "image":"../src/assets/bigamet2.jpg",
+        "image":"assets/bigamet2.jpg",
         "name":"Amet2",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -14,7 +14,7 @@
     ,
     {
         "id":2,
-        "image":"../src/assets/bigchair2.jpg",
+        "image":"assets/bigchair2.jpg",
         "name":"Chair2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -25,7 +25,7 @@
     ,
     {
         "id":3,
-        "image":"../src/assets/bigflowerpot2.jpg",
+        "image":"assets/bigflowerpot2.jpg",
         "name":"Flower pot2",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -36,7 +36,7 @@
     ,
     {
         "id":4,
-        "image":"../src/assets/bigclock3.jpg",
+        "image":"assets/bigclock3.jpg",
         "name":"Clock3",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -46,7 +46,7 @@
     }
     ,    {
         "id":5,
-        "image":"../src/assets/bigpot3.jpg",
+        "image":"assets/bigpot3.jpg",
         "name":"Pot3",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -57,7 +57,7 @@
     ,
     {
         "id":6,
-        "image":"../src/assets/bigpot2.jpg",
+        "image":"assets/bigpot2.jpg",
         "name":"Pot2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -68,7 +68,7 @@
     ,
     {
         "id":7,
-        "image":"../src/assets/bigtable2.jpg",
+        "image":"assets/bigtable2.jpg",
         "name":"Table2",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -79,7 +79,7 @@
     ,
     {
         "id":8,
-        "image":"../src/assets/bigclock2.jpg",
+        "image":"``assets/bigclock2.jpg",
         "name":"Clock2",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -90,7 +90,7 @@
     ,
     {
         "id":9,
-        "image":"../src/assets/bigcum2.jpg",
+        "image":"/assets/bigcum2.jpg",
         "name":"Cum2",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -101,7 +101,7 @@
     ,
     {
         "id":10,
-        "image":"../src/assets/bigushi2.jpg",
+        "image":"assets/bigushi2.jpg",
         "name":"Ushi2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -112,7 +112,7 @@
     ,
     {
         "id":11,
-        "image":"../src/assets/bigflowerpot4.jpg",
+        "image":"assets/bigflowerpot4.jpg",
         "name":"Flower pot4",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -123,7 +123,7 @@
     ,
     {
         "id":12,
-        "image":"../src/assets/biglamp4.jpg",
+        "image":"assets/biglamp4.jpg",
         "name":"Lamp4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -133,7 +133,7 @@
     }
     ,    {
         "id":13,
-        "image":"../src/assets/bigchair5.jpg",
+        "image":"assets/bigchair5.jpg",
         "name":"Chair5",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -144,7 +144,7 @@
     ,
     {
         "id":14,
-        "image":"../src/assets/biglatkan2.jpg",
+        "image":"assets/biglatkan2.jpg",
         "name":"Latkan2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -155,7 +155,7 @@
     ,
     {
         "id":15,
-        "image":"../src/assets/bigsopa3.jpg",
+        "image":"assets/bigsopa3.jpg",
         "name":"Sopa3",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -166,7 +166,7 @@
     ,
     {
         "id":16,
-        "image":"../src/assets/bigflowerpot3.jpg",
+        "image":"assets/bigflowerpot3.jpg",
         "name":"Flower pot4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -177,7 +177,7 @@
     ,
     {
         "id":17,
-        "image":"../src/assets/bigpot1.jpg",
+        "image":"assets/bigpot1.jpg",
         "name":"Pot1",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -188,7 +188,7 @@
     ,
     {
         "id":18,
-        "image":"../src/assets/bigsopa_2.jpg",
+        "image":"assets/bigsopa_2.jpg",
         "name":"Sopa2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -199,7 +199,7 @@
     ,
     {
         "id":19,
-        "image":"../src/assets/bigsopa4.jpg",
+        "image":"assets/bigsopa4.jpg",
         "name":"Sopa4",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -210,7 +210,7 @@
     ,
     {
         "id":20,
-        "image":"../src/assets/bigcum4.jpg",
+        "image":"assets/bigcum4.jpg",
         "name":"Cum4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -220,7 +220,7 @@
     },
     {
         "id":21,
-        "image":"../src/assets/bigamet1.jpg",
+        "image":"assets/bigamet1.jpg",
         "name":"Amet1",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -231,7 +231,7 @@
     ,
     {
         "id":22,
-        "image":"../src/assets/bigchair1.jpg",
+        "image":"assets/bigchair1.jpg",
         "name":"Chair1",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -241,7 +241,7 @@
     }
     ,    {
         "id":23,
-        "image":"../src/assets/dori1.jpg",
+        "image":"assets/dori1.jpg",
         "name":"Dori",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -252,7 +252,7 @@
     ,
     {
         "id":24,
-        "image":"../src/assets/bigClock1.jpg",
+        "image":"assets/bigClock1.jpg",
         "name":"Clock1",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -263,7 +263,7 @@
     ,
     {
         "id":25,
-        "image":"../src/assets/bigflowerpot1.jpg",
+        "image":"assets/bigflowerpot1.jpg",
         "name":"Flower pot1",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -274,7 +274,7 @@
     ,
     {
         "id":26,
-        "image":"../src/assets/bigcum1.jpg",
+        "image":"assets/bigcum1.jpg",
         "name":"Cum1",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -285,7 +285,7 @@
     ,
     {
         "id":27,
-        "image":"../src/assets/bigchair_3.jpg",
+        "image":"assets/bigchair_3.jpg",
         "name":"Chair_3",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -296,7 +296,7 @@
     ,
     {
         "id":28,
-        "image":"../src/assets/bigsopa_1.jpg",
+        "image":"assets/bigsopa_1.jpg",
         "name":"Sopa_1",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -307,7 +307,7 @@
     ,
     {
         "id":29,
-        "image":"../src/assets/bigushi3.jpg",
+        "image":"assets/bigushi3.jpg",
         "name":"Ushi3",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -318,7 +318,7 @@
     ,
     {
         "id":30,
-        "image":"../src/assets/bigcum3.jpg",
+        "image":"assets/bigcum3.jpg",
         "name":"Cum3",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -331,7 +331,7 @@
 
     {
         "id":31,
-        "image":"../src/assets/furtable2.jpg",
+        "image":"assets/furtable2.jpg",
         "name":"Table2",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -342,7 +342,7 @@
     ,
     {
         "id":32,
-        "image":"../src/assets/bigchair_2.jpg",
+        "image":"assets/bigchair_2.jpg",
         "name":"Chair_2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -353,7 +353,7 @@
     ,
     {
         "id":33,
-        "image":"../src/assets/biglamp3.jpg",
+        "image":"assets/biglamp3.jpg",
         "name":"Lamp3",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -364,7 +364,7 @@
     ,
     {
         "id":34,
-        "image":"../src/assets/bigtable3.jpg",
+        "image":"assets/bigtable3.jpg",
         "name":"Table3",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -374,7 +374,7 @@
     }
     ,    {
         "id":35,
-        "image":"../src/assets/bigpot4.jpg",
+        "image":"assets/bigpot4.jpg",
         "name":"Pot4",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -385,7 +385,7 @@
     ,
     {
         "id":36,
-        "image":"../src/assets/bigsopa1.jpg",
+        "image":"assets/bigsopa1.jpg",
         "name":"Sopa1",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -396,7 +396,7 @@
     ,
     {
         "id":37,
-        "image":"../src/assets/bigamet5.jpg",
+        "image":"assets/bigamet5.jpg",
         "name":"Amet5",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -407,7 +407,7 @@
     ,
     {
         "id":38,
-        "image":"../src/assets/bigclock4.jpg",
+        "image":"assets/bigclock4.jpg",
         "name":"Clock4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -418,7 +418,7 @@
     ,
     {
         "id":39,
-        "image":"../src/assets/bigbag2.jpg",
+        "image":"assets/bigbag2.jpg",
         "name":"Bag2",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -429,7 +429,7 @@
     ,
     {
         "id":40,
-        "image":"../src/assets/bigushi4.jpg",
+        "image":"assets/bigushi4.jpg",
         "name":"Ushi4",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -440,7 +440,7 @@
     ,
     {
         "id":41,
-        "image":"../src/assets/bigflowerpot6.jpg",
+        "image":"assets/bigflowerpot6.jpg",
         "name":"Flower pot6",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -451,7 +451,7 @@
     ,
     {
         "id":42,
-        "image":"../src/assets/bigtable5.jpg",
+        "image":"assets/bigtable5.jpg",
         "name":"Table5",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -461,7 +461,7 @@
     }
     ,    {
         "id":43,
-        "image":"../src/assets/bigchair_1.jpg",
+        "image":"assets/bigchair_1.jpg",
         "name":"Chair_1",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -472,7 +472,7 @@
     ,
     {
         "id":44,
-        "image":"../src/assets/biglatkan4.jpg",
+        "image":"assets/biglatkan4.jpg",
         "name":"Latkan4",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -483,7 +483,7 @@
     ,
     {
         "id":45,
-        "image":"../src/assets/bigsopa_3.jpg",
+        "image":"assets/bigsopa_3.jpg",
         "name":"Sopa_3",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -494,7 +494,7 @@
     ,
     {
         "id":46,
-        "image":"../src/assets/biglamp6.jpg",
+        "image":"assets/biglamp6.jpg",
         "name":"Lamp6",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -505,7 +505,7 @@
     ,
     {
         "id":47,
-        "image":"../src/assets/furtable6.jpg",
+        "image":"assets/furtable6.jpg",
         "name":"Furtable6",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -516,7 +516,7 @@
     ,
     {
         "id":48,
-        "image":"../src/assets/bigbag1.jpg",
+        "image":"assets/bigbag1.jpg",
         "name":"Bag1",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -527,7 +527,7 @@
     ,
     {
         "id":49,
-        "image":"../src/assets/bigamet.jpg",
+        "image":"assets/bigamet.jpg",
         "name":"Amet",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -538,7 +538,7 @@
     ,
     {
         "id":50,
-        "image":"../src/assets/bigcum5.jpg",
+        "image":"assets/bigcum5.jpg",
         "name":"Cum5",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -548,7 +548,7 @@
     },
     {
         "id":51,
-        "image":"../src/assets/bigsopa5.jpg",
+        "image":"assets/bigsopa5.jpg",
         "name":"Sopa5",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -559,7 +559,7 @@
     ,
     {
         "id":52,
-        "image":"../src/assets/bigchair4.jpg",
+        "image":"assets/bigchair4.jpg",
         "name":"Chair4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -569,7 +569,7 @@
     }
     ,    {
         "id":53,
-        "image":"../src/assets/bigamet5.jpg",
+        "image":"assets/bigamet5.jpg",
         "name":"Amet5",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -580,7 +580,7 @@
     ,
     {
         "id":54,
-        "image":"../src/assets/bigclock5.jpg",
+        "image":"assets/bigclock5.jpg",
         "name":"Clock5",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -591,7 +591,7 @@
     ,
     {
         "id":55,
-        "image":"../src/assets/biglamp1.jpg",
+        "image":"assets/biglamp1.jpg",
         "name":"Lamp1",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -602,7 +602,7 @@
     ,
     {
         "id":56,
-        "image":"../src/assets/bigcum5.jpg",
+        "image":"assets/bigcum5.jpg",
         "name":"Cum5",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -613,7 +613,7 @@
     ,
     {
         "id":57,
-        "image":"../src/assets/bigamet8.jpg",
+        "image":"assets/bigamet8.jpg",
         "name":"Amet8",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -624,7 +624,7 @@
     ,
     {
         "id":58,
-        "image":"../src/assets/bigushi5.jpg",
+        "image":"assets/bigushi5.jpg",
         "name":"Ushi5",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -635,7 +635,7 @@
     ,
     {
         "id":59,
-        "image":"../src/assets/furtable3.jpg",
+        "image":"assets/furtable3.jpg",
         "name":"Furtable3",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -646,7 +646,7 @@
     ,
     {
         "id":60,
-        "image":"../src/assets/bigsopa_3.jpg",
+        "image":"assets/bigsopa_3.jpg",
         "name":"Sopa_3",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -661,7 +661,7 @@
     ,
     {
         "id":61,
-        "image":"../src/assets/biglamp2.jpg",
+        "image":"assets/biglamp2.jpg",
         "name":"Lamp2",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -672,7 +672,7 @@
     ,
     {
         "id":62,
-        "image":"../src/assets/bigbag3.jpg",
+        "image":"/assets/bigbag3.jpg",
         "name":"Bag3",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -682,7 +682,7 @@
     }
     ,    {
         "id":63,
-        "image":"../src/assets/bigamet3.jpg",
+        "image":"assets/bigamet3.jpg",
         "name":"Amet3",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -693,7 +693,7 @@
     ,
     {
         "id":64,
-        "image":"../src/assets/biglatkan3.jpg",
+        "image":"assets/biglatkan3.jpg",
         "name":"Latkan3",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -704,7 +704,7 @@
     ,
     {
         "id":65,
-        "image":"../src/assets/bigsopa_3.jpg",
+        "image":"assets/bigsopa_3.jpg",
         "name":"Sopa_3",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -715,7 +715,7 @@
     ,
     {
         "id":66,
-        "image":"../src/assets/furtable8.jpg",
+        "image":"assets/furtable8.jpg",
         "name":"Furtable8",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -726,7 +726,7 @@
     ,
     {
         "id":67,
-        "image":"../src/assets/bigamet9.jpg",
+        "image":"assets/bigamet9.jpg",
         "name":"Amet9",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -737,7 +737,7 @@
     ,
     {
         "id":68,
-        "image":"../src/assets/bigchair3.jpg",
+        "image":"assets/bigchair3.jpg",
         "name":"Chiar3",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -748,7 +748,7 @@
     ,
     {
         "id":69,
-        "image":"../src/assets/bigushi1.jpg",
+        "image":"assets/bigushi1.jpg",
         "name":"Ushi1",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -759,7 +759,7 @@
     ,
     {
         "id":70,
-        "image":"../src/assets/furtable4.jpg",
+        "image":"assets/furtable4.jpg",
         "name":"furtable4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -769,7 +769,7 @@
     },
     {
         "id":71,
-        "image":"../src/assets/bigsopa2.jpg",
+        "image":"assets/bigsopa2.jpg",
         "name":"Sopa2",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -780,7 +780,7 @@
     ,
     {
         "id":72,
-        "image":"../src/assets/bigamet4.jpg",
+        "image":"assets/bigamet4.jpg",
         "name":"Amet4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -790,7 +790,7 @@
     }
     ,    {
         "id":73,
-        "image":"../src/assets/biglatkan1.jpg",
+        "image":"assets/biglatkan1.jpg",
         "name":"Latkan1",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -801,7 +801,7 @@
     ,
     {
         "id":74,
-        "image":"../src/assets/biglamp5.jpg",
+        "image":"assets/biglamp5.jpg",
         "name":"Lamp5",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -812,7 +812,7 @@
     ,
     {
         "id":75,
-        "image":"../src/assets/bigushi6.jpg",
+        "image":"assets/bigushi6.jpg",
         "name":"Ushi6",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -823,7 +823,7 @@
     ,
     {
         "id":76,
-        "image":"../src/assets/bigtable1.jpg",
+        "image":"assets/bigtable1.jpg",
         "name":"Table1",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -834,7 +834,7 @@
     ,
     {
         "id":77,
-        "image":"../src/assets/bigamet6.jpg",
+        "image":"assets/bigamet6.jpg",
         "name":"Amet6",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -845,7 +845,7 @@
     ,
     {
         "id":78,
-        "image":"../src/assets/furtable1.jpg",
+        "image":"assets/furtable1.jpg",
         "name":"Furtable1",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -856,7 +856,7 @@
     ,
     {
         "id":79,
-        "image":"../src/assets/bigtable4.jpg",
+        "image":"assets/bigtable4.jpg",
         "name":"Table4",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -867,7 +867,7 @@
     ,
     {
         "id":80,
-        "image":"../src/assets/bigamet7.jpg",
+        "image":"assets/bigamet7.jpg",
         "name":"Amet7",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
