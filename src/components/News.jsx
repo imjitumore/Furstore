@@ -36,7 +36,7 @@ export const News = () => {
   return (
 
     <>
-      <div className="news_main my-40 w-[100%]">
+      <div className="news_main my-40 w-[90%]">
         <div className="main_text new_title text-6xl text-center my-20">
           Latest News
         </div>

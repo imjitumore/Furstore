@@ -25,9 +25,6 @@ export const Home = () => {
           <p className="home_lorem_text text-[white] text-lg my-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <button className="home_btn border-2 border-white py-2 px-8 text-white text-md my-4 w-48 mx-auto">
-            Learn more
-          </button>
         </div>
       </div>
       <Advertisement />
