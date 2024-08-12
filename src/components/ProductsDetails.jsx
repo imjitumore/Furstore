@@ -9,6 +9,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { RelatedProducts } from "./Collections";
 import { Link } from "react-router-dom";
 import { Arrial_card } from "./Arrial";
+import bigamet3 from "../assets/bigamet3.jpg"
+import bigflowerpot4 from "../assets/bigflowerpot4.jpg"
+import bigtable3 from "../assets/bigtable3.jpg"
+import bigchair5 from "../assets/bigchair5.jpg"
+import bigchair_1 from "../assets/bigchair_1.jpg"
+import bigclock3 from "../assets/bigclock3.jpg"
+import bigcum3 from "../assets/bigcum3.jpg"
+import bigushi3 from "../assets/bigushi3.jpg"
+
 
 export const ProductsDetails = ({ data }) => {
   const { name } = useParams();
@@ -160,10 +169,10 @@ function CustomerView() {
 }
 
 function Showcase() {
-  const [data, setData] = useState([
+  const data =[
     {
       id: "1",
-      image: "../src/assets/bigamet3.jpg",
+      image:bigamet3,
       name: "Amet3",
       price: "$98.23",
       discription:
@@ -175,7 +184,7 @@ function Showcase() {
     },
     {
       id: "2",
-      image: "../src/assets/bigtable3.jpg",
+      image:bigtable3,
       name: "Table3",
       price: "$200.23",
       discription:
@@ -187,7 +196,7 @@ function Showcase() {
     },
     {
       id: "3",
-      image: "../src/assets/bigchair5.jpg",
+      image: bigchair5,
       name: "Chair5",
       price: "$70.23",
       discription:
@@ -199,7 +208,7 @@ function Showcase() {
     },
     {
       id: "4",
-      image: "../src/assets/bigclock3.jpg",
+      image: bigclock3,
       name: "Clock3",
       price: "$120.23",
       discription:
@@ -211,7 +220,7 @@ function Showcase() {
     },
     {
       id: "5",
-      image: "../src/assets/bigchair_1.jpg",
+      image: bigchair_1,
       name: "chair_1",
       price: "$98.23",
       discription:
@@ -223,7 +232,7 @@ function Showcase() {
     },
     {
       id: "6",
-      image: "../src/assets/bigushi3.jpg",
+      image: bigushi3,
       name: "Ushi3",
       price: "$200.23",
       discription:
@@ -236,7 +245,7 @@ function Showcase() {
 
     {
       id: "7",
-      image: "../src/assets/bigflowerpot4.jpg",
+      image: bigflowerpot4,
       name: "Flower Pot4",
       price: "$98.23",
       discription:
@@ -248,7 +257,7 @@ function Showcase() {
     },
     {
       id: "8",
-      image: "../src/assets/bigcum3.jpg",
+      image: bigcum3,
       name: "Cum3",
       price: "$200.23",
       discription:
@@ -258,7 +267,7 @@ function Showcase() {
         "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
       Quantity: "8",
     },
-  ]);
+  ];
   return (
     <>
       <div className=" my-20">

@@ -15,6 +15,20 @@ import { CiGrid31 } from "react-icons/ci";
 import { Footer } from "./Footer";
 import { Link } from "react-router-dom";
 
+import bigsopa1 from "../assets/bigsopa1.jpg"
+import bigsopa2 from "../assets/bigsopa2.jpg"
+import bigsopa3 from "../assets/bigsopa3.jpg"
+import bigsopa4 from "../assets/bigsopa4.jpg"
+import bigchair3 from "../assets/bigchair1.jpg"
+import bigchair1 from "../assets/bigchair3.jpg"
+import bigchair2 from "../assets/bigchair2.jpg"
+import bigchair4 from "../assets/bigchair4.jpg"
+import bigflowerpot1 from "../assets/bigflowerpot1.jpg"
+import bigflowerpot2 from "../assets/bigflowerpot2.jpg"
+import bigflowerpot3 from "../assets/bigflowerpot3.jpg"
+import bigflowerpot4 from "../assets/bigflowerpot4.jpg"
+
+
 
 export const Collections = ({data}) => {
   return (
@@ -176,10 +190,10 @@ function Tags()
 
 export function RelatedProducts() {
  
-  const [dataa, setDataa] = useState([
+  const dataa = [
     {
         "id":1,
-        "image":"../src/assets/bigsopa1.jpg",
+        "image":bigsopa1,
         "name":"Sopa1",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -190,7 +204,7 @@ export function RelatedProducts() {
     ,
     {
         "id":2,
-        "image":"../src/assets/bigSopa2.jpg",
+        "image":bigsopa2,
         "name":"Sopa2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -201,7 +215,7 @@ export function RelatedProducts() {
     ,
     {
         "id":3,
-        "image":"../src/assets/bigsopa3.jpg",
+        "image":bigsopa3,
         "name":"Sopa3",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -212,7 +226,7 @@ export function RelatedProducts() {
     ,
     {
         "id":4,
-        "image":"../src/assets/bigsopa4.jpg",
+        "image":bigsopa4,
         "name":"Sopa4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -222,7 +236,7 @@ export function RelatedProducts() {
     }
     ,    {
         "id":5,
-        "image":"../src/assets/bigchair1.jpg",
+        "image":bigchair1,
         "name":"Chair1",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -233,7 +247,7 @@ export function RelatedProducts() {
     ,
     {
         "id":6,
-        "image":"../src/assets/bigchair2.jpg",
+        "image":bigchair2,
         "name":"Chair2",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -243,7 +257,7 @@ export function RelatedProducts() {
     },
     {
         "id":7,
-        "image":"../src/assets/bigchair3.jpg",
+        "image":bigchair3,
         "name":"Chair3",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -254,7 +268,7 @@ export function RelatedProducts() {
     ,
     {
         "id":8,
-        "image":"../src/assets/bigchair4.jpg",
+        "image":bigchair4,
         "name":"Chair4",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -265,7 +279,7 @@ export function RelatedProducts() {
     ,
     {
         "id":9,
-        "image":"../src/assets/bigflowerpot1.jpg",
+        "image":bigflowerpot1,
         "name":"Flower pot1",
         "price":"$70.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -276,7 +290,7 @@ export function RelatedProducts() {
     ,
     {
         "id":10,
-        "image":"../src/assets/bigflowerpot4.jpg",
+        "image":bigflowerpot4,
         "name":"Flower pot4",
         "price":"$120.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -286,7 +300,7 @@ export function RelatedProducts() {
     }
     ,    {
         "id":11,
-        "image":"../src/assets/bigflowerpot2.jpg",
+        "image":bigflowerpot2,
         "name":"Flower pot2",
         "price":"$98.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -297,7 +311,7 @@ export function RelatedProducts() {
     ,
     {
         "id":12,
-        "image":"../src/assets/bigflowerpot3.jpg",
+        "image":bigflowerpot3,
         "name":"Flower pot3",
         "price":"$200.23",
         "discription":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
@@ -305,7 +319,7 @@ export function RelatedProducts() {
         "Category":"Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
         "Quantity":"8"
     }
-]);
+];
 
   
   return (
