@@ -14,7 +14,6 @@ import { TfiLayoutGrid4Alt } from "react-icons/tfi";
 import { CiGrid31 } from "react-icons/ci";
 import { Footer } from "./Footer";
 import { Link } from "react-router-dom";
-
 import bigsopa1 from "../assets/bigsopa1.jpg"
 import bigsopa2 from "../assets/bigsopa2.jpg"
 import bigsopa3 from "../assets/bigsopa3.jpg"
@@ -145,7 +144,6 @@ function Allproducts(props) {
   );
 };
 
-
 function Tags()
 {
   return(
@@ -186,7 +184,6 @@ function Tags()
     </>
   )
 }
-
 
 export function RelatedProducts() {
  
