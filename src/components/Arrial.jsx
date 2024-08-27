@@ -54,11 +54,9 @@ export const Arrial = () => {
         <div className="arrial_center">
           <div className="arrial_slider pl-6">
             <Slider {...settings}>
-            
-                {img.map((item, i) => {
-                  return <img className="" src={item.image} alt="" />;
-                })}
-            
+              {img.map((item, i) => {
+                return <img className="" src={item.image} alt="" />;
+              })}
             </Slider>
           </div>
           <div className="arrial_cards grid grid-cols-3 grid-rows-2">
@@ -105,20 +103,28 @@ export const Arrial = () => {
 };
 
 export function Arrial_card(props) {
-  const [val, setVal] = useState();
+  const [val, setVal] = useState(false);
   useEffect(() => {
     setVal(1);
   });
+
+  const [value, setValue] = useState(false);
   return (
     <>
       <div className="card_main mx-6">
         <div className={`${val == 1 ? "GIRD" : ""}`}>
-          <div className="flex justify-center items-center">
-            <img
-              className="center_img text-center"
-              src={props.image }
-              alt={props.image}
-            />
+          <div className="relative group">
+            <div className="flex justify-center items-center group overflow-hidden ">
+              <img
+                className="center_img text-center relative group-hover:scale-125 transition-all duration-300"
+                src={props.image}
+                alt={props.image}
+              />
+            </div>
+            <button
+              className={` absolute top-[3%] transition-all duration-500 bg-slate-900 text-white py-2 px-4 w-32 left-1/2 translate-x-[-50%] rounded-lg scale-0 group-hover:scale-100`}>
+              Add To Cart
+            </button>
           </div>
           <div className="py-1">
             <div className="star text-center py-2 text-[#Ffd700] justify-center flex text-sm gap-1">
