@@ -8,6 +8,8 @@ import { ContactUs } from "./components/ContactUs";
 import { Blog } from "./components/Blog";
 import { BlogDetails } from "./components/BlogDetails";
 import { Cart } from "./components/Cart";
+import { Arrial } from "./components/Arrial";
+import { Checkout } from "./components/Checkout";
 
 function App() {
 
@@ -35,13 +37,15 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home dataa={dataa} setdataa={setDataa}/>} />
         <Route path="/collections" element={<Collections data={data} />} />
         <Route path="/productsdetails/:name" element={<ProductsDetails data={data} setdataa={setDataa} dataa={dataa}><Cart/></ProductsDetails>}/>
         <Route path="/contactus" element={<ContactUs/>} />
         <Route path="/blog" element={<Blog data={blog} />}/>
         <Route path="/cart" element={<Cart dataa={dataa} />}/>
+        <Route path="/checkout" element={<Checkout dataa={dataa} />}/>
         <Route path="/blogdetails/:id" element={<BlogDetails data={blog}/>}/>
+
       </Routes>
     </BrowserRouter>
 

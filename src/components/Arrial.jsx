@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-export const Arrial = () => {
+export const Arrial = ({dataa,setdataa}) => {
   const [card, setCard] = useState([]);
   useEffect(() => {
     fetch("Cards.json")
@@ -64,6 +64,8 @@ export const Arrial = () => {
               return (
                 <Link to={`/productsdetails/${item.name}`}>
                   <Arrial_card
+                  dataa={dataa}
+                  setdataa={setdataa}
                     image={item.image}
                     name={item.name}
                     price={item.price}
@@ -102,11 +104,16 @@ export const Arrial = () => {
   );
 };
 
-export function Arrial_card(props) {
+export function Arrial_card(props,{dataa , setdataa}) {
   const [val, setVal] = useState(false);
   useEffect(() => {
     setVal(1);
   });
+
+  function getData(item)
+  {
+    setdataa([...dataa,item])
+  }
 
   const [value, setValue] = useState(false);
   return (
@@ -122,6 +129,7 @@ export function Arrial_card(props) {
               />
             </div>
             <button
+            onClick={()=>setdataa()}
               className={` absolute text-sm top-[3%] transition-all duration-500 bg-slate-900 text-white py-2 px-2 w-24 left-1/2 translate-x-[-50%] rounded-lg scale-0 group-hover:scale-100`}>
               Add To Cart
             </button>

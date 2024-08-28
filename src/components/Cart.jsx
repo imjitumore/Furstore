@@ -48,7 +48,7 @@ export const Cart = ({ dataa }) => {
       </div></div>
 
       <div className="Cart-section mx-20 gap-6">
-        <div className=" my-10">
+        <div className="">
           <>
           <table className="border-2 w-full h-20 overflow-y-scroll">
             <thead>
@@ -75,7 +75,7 @@ export const Cart = ({ dataa }) => {
                );
               })}
           </table>
-          <div className="flex gap-8 text-lg my-2"><div className="w-full"><button className="text-[#2b5e5d] border-[#2b5e5d] border-2 w-full py-2 bg-white text-md my-2 rounded-md">Proceed To Checkout</button></div>
+          <div className="flex gap-8 text-lg my-2"><div className="w-full"><Link to={"/checkout"}><button className="text-[#2b5e5d] border-[#2b5e5d] border-2 w-full py-2 bg-white text-md my-2 rounded-md">Proceed To Checkout</button></Link></div>
           <div className="w-full"><Link to={"/collections"}><button className="bg-[#2b5e5d] border-[#2b5e5d] w-full py-2 border-2 text-white text-md my-2 rounded-md">Continue To Shopping</button></Link></div></div>
           </>
      
@@ -97,9 +97,9 @@ export const Cart = ({ dataa }) => {
           </div>
 
         </div>
-        <div className="border-2 my-10 bg-">
-          <div className="text-[12px] font-semibold py-3 px-6 border-b-2">THERE ARE 4 ITEMS IN YOUR CART</div>
-          <div className="bg-[#f2f2f2] py-4">
+        <div className="">
+          <div className="text-[12px] font-semibold py-3 px-6 border-2">THERE ARE 4 ITEMS IN YOUR CART</div>
+          <div className="border-x-2 border-b-2"><div className="bg-[#f2f2f2] py-4">
           <div className="px-4 "><p className="font-semibold text-sm">TOTAL:</p><p>{}</p></div>
           <div className="px-4 py-4 flex gap-2"><p className="font-semibold text-sm">SHOPPING:</p><p className="text-sm">Shipping & taxes calculated at checkout</p></div>
           <div className="flex px-4 my-4 ">
@@ -109,7 +109,7 @@ export const Cart = ({ dataa }) => {
           <div className="flex gap-2 px-4"><p className="text-sm ">Free shipping for any orders above</p><p className="text-[#59ba4e] font-semibold">$200.00</p></div>
           <div className="px-4 mt-6"><p className="text-bold">Add a note to your order :</p></div>
           <div className="px-4"><textarea className="px-4  my-2" name="" id="" cols="20" rows="10" placeholder="Add Your Note Here :"></textarea></div>
-          </div>
+          </div></div>
         </div>
       </div>
 

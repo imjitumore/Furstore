@@ -33,7 +33,7 @@ li::after
 .Cart-section
 {
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 65% 32%;
 }
 
 
@@ -179,7 +179,11 @@ span
   }
 }
 
-
+.checkout-grid
+{
+  display: grid !important;
+  grid-template-columns: 58% 42% !important;
+}
 
 
 

@@ -10,7 +10,7 @@ import { Products } from "./Products";
 import { Testimonil } from "./Testimonil";
 import { News } from "./News";
 import { Footer } from "./Footer";
-export const Home = () => {
+export const Home = ({dataa,setdata}) => {
   return (
     <>
       <Navbar />
@@ -46,7 +46,7 @@ export const Home = () => {
           para="lorem ipsum dolor sit amet consectetur adipisicing sit amet consectetur adipisicing elit. "
         />
       </div>
-      <Arrial />
+      <Arrial dataa={dataa} setdataa={setdata}/>
       <Products />
       <Testimonil />
       <News />
