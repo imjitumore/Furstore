@@ -114,7 +114,7 @@ export const ProductsDetails = ({ data , setdataa ,dataa}) => {
           
           <div className="flex gap-6">
             <div><Link to={"/cart"}><button onClick={()=>getData(product)} className="text-sm text-white py-3 px-12 rounded-md font-bold my-3 bg-[#387581] transition-all duration-500 hover:bg-black"><FontAwesomeIcon icon={faCartShopping}/>  Add To Cart</button></Link></div>
-            <button className="text-sm text-white py-3 px-14 rounded-md font-bold my-3 bg-[#387581] hover:bg-black transition-all duration-500"> <FontAwesomeIcon icon={faCartShopping}/> Buy Now</button>
+            <div><Link to={"/checkout"}><button onClick={()=>getData(product)} className="text-sm text-white py-3 px-14 rounded-md font-bold my-3 bg-[#387581] hover:bg-black transition-all duration-500"> <FontAwesomeIcon icon={faCartShopping}/> Buy Now</button></Link></div>
           </div>
           <hr />
           <div className="py-3">
