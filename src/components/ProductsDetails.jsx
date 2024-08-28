@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useParams } from "react-router-dom";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 import { Cards } from "./Home";
@@ -17,12 +17,20 @@ import bigchair_1 from "../assets/bigchair_1.jpg"
 import bigclock3 from "../assets/bigclock3.jpg"
 import bigcum3 from "../assets/bigcum3.jpg"
 import bigushi3 from "../assets/bigushi3.jpg"
+import {  faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { Cart } from "./Cart";
 
-
-export const ProductsDetails = ({ data }) => {
+export const ProductsDetails = ({ data , setdataa ,dataa}) => {
   const { name } = useParams();
   const [product, setProduct] = useState(null);
   const [val, setVal] = useState(null);
+ 
+  function getData(item)
+  {
+    setdataa([...dataa,item])
+  }
+
+  
 
   useEffect(() => {
     if (data.length > 0) {
@@ -103,6 +111,12 @@ export const ProductsDetails = ({ data }) => {
             </div>
           </div>
           <hr />
+          
+          <div className="flex gap-6">
+            <div><Link to={"/cart"}><button onClick={()=>getData(product)} className="text-sm text-white py-3 px-12 rounded-md font-bold my-3 bg-[#387581] transition-all duration-500 hover:bg-black"><FontAwesomeIcon icon={faCartShopping}/>  Add To Cart</button></Link></div>
+            <button className="text-sm text-white py-3 px-14 rounded-md font-bold my-3 bg-[#387581] hover:bg-black transition-all duration-500"> <FontAwesomeIcon icon={faCartShopping}/> Buy Now</button>
+          </div>
+          <hr />
           <div className="py-3">
             <p className="py-2">Guaranteed safe checkout:</p>
             <img className="cursor-pointer" src={payment} alt="" />
@@ -160,7 +174,7 @@ function CustomerView() {
           <FontAwesomeIcon icon={faStar} />
         </div>
         <p className="text-sm">Be the first to write a review</p>
-        <button className="text-sm text-white py-3 px-24 rounded-md font-bold my-3 bg-[#387581]">
+        <button className="text-sm text-white py-3 px-24 rounded-md font-bold my-3 bg-[#387581] transition-all hover:bg-black duration-500">
           Write A Review
         </button>
       </div>

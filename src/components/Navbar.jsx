@@ -33,7 +33,6 @@ export const Navbar = () => {
             <li>
               <Link to="/collections">Collection</Link>
             </li>
-            {/* <li><Link to={`/productsdetails/${Math.floor(Math.random()*10)}`} >Products</Link></li> */}
             <li><Link to={'/productsdetails/Pot1'}>Products</Link></li>
             <li><Link to='/contactus'>Other Pages</Link></li>
             <li><Link to='/blog'>Blog</Link></li>
@@ -43,7 +42,7 @@ export const Navbar = () => {
           <FontAwesomeIcon icon={faMagnifyingGlass} />
           <FontAwesomeIcon icon={faUser} />
           <FontAwesomeIcon icon={faStar} />
-          <FontAwesomeIcon icon={faCartShopping} />
+          <Link to={"/cart"}><FontAwesomeIcon icon={faCartShopping} /></Link>
         </div>
       </div>
     </>

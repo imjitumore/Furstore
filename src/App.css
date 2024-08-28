@@ -12,6 +12,12 @@ li{
   position: relative;
 
 }
+
+progress
+{
+  color: #59ba4e;
+}
+
 li::after
 {
   content: '';
@@ -22,6 +28,12 @@ li::after
   height: 2px;
   background-color: black;
   transition: 1s;
+}
+
+.Cart-section
+{
+  display: grid;
+  grid-template-columns: 70% 30%;
 }
 
 

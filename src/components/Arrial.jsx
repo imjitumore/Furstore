@@ -122,7 +122,7 @@ export function Arrial_card(props) {
               />
             </div>
             <button
-              className={` absolute top-[3%] transition-all duration-500 bg-slate-900 text-white py-2 px-4 w-32 left-1/2 translate-x-[-50%] rounded-lg scale-0 group-hover:scale-100`}>
+              className={` absolute text-sm top-[3%] transition-all duration-500 bg-slate-900 text-white py-2 px-2 w-24 left-1/2 translate-x-[-50%] rounded-lg scale-0 group-hover:scale-100`}>
               Add To Cart
             </button>
           </div>

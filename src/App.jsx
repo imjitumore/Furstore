@@ -7,11 +7,13 @@ import {ProductsDetails} from  "./components/ProductsDetails";
 import { ContactUs } from "./components/ContactUs";
 import { Blog } from "./components/Blog";
 import { BlogDetails } from "./components/BlogDetails";
+import { Cart } from "./components/Cart";
 
 function App() {
 
   const[data,setData]=useState([])
   const[blog,setBlog]=useState([])
+  const [dataa,setDataa] = useState([])
 
   useEffect(()=>{
     fetch("Data.json").then((response)=>{
@@ -28,15 +30,17 @@ function App() {
 
   },[blog,data])
 
+  console.log(dataa)
   return (
     <>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/collections" element={<Collections data={data} />} />
-        <Route path="/productsdetails/:name" element={<ProductsDetails data={data} />}/>
+        <Route path="/productsdetails/:name" element={<ProductsDetails data={data} setdataa={setDataa} dataa={dataa}><Cart/></ProductsDetails>}/>
         <Route path="/contactus" element={<ContactUs/>} />
         <Route path="/blog" element={<Blog data={blog} />}/>
+        <Route path="/cart" element={<Cart dataa={dataa} />}/>
         <Route path="/blogdetails/:id" element={<BlogDetails data={blog}/>}/>
       </Routes>
     </BrowserRouter>
