@@ -9,15 +9,14 @@ export const Footer = () => {
     <>
         <div className="footer_main mx-10 text-center">
             <hr />
-            <div className="footer_list  grid grid-cols-5 my-10">
-                <div className="addr my-2  ">
-
-                <p className='footer_text text-3xl'> <img className='h-7' src={logo} alt=""  /></p>
-                    <p className='items-center my-4 about_p flex gap-2 items-center'> <FontAwesomeIcon icon={faLocationDot} /> 
+            <div className="footer_list  grid sm:grid-cols-5 grid-cols-1 my-10">
+                <div className="addr my-2 justify-center">
+                <p className='footer_text text-3xl text-center flex justify-center'> <img className='h-7' src={logo} alt=""  /></p>
+                    <p className='items-center my-4 about_p justify-center flex gap-2 '> <FontAwesomeIcon icon={faLocationDot} /> 
                         <p className='about_p '>2357 Gordon Street, CA</p></p>
-                    <p className='items-center my-4 about_p flex items-center gap-5'><FontAwesomeIcon icon={faMobile} /> 
+                    <p className='items-center my-4 about_p flex items-center gap-5 justify-center '><FontAwesomeIcon icon={faMobile} /> 
                         <p className='about_p'>123 456 7890</p></p>
-                    <p className='items-center my-4 about_p flex gap-5'> <FontAwesomeIcon icon={faEnvelope} /> 
+                    <p className='items-center my-4 about_p flex gap-5 justify-center '> <FontAwesomeIcon icon={faEnvelope} /> 
                         <p className='about_p '>demo@gmail.com</p></p>
                     
                 </div>

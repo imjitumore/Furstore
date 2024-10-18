@@ -172,8 +172,8 @@ export const Testimonil = () => {
         </div>
         <br />
         <div className="Flash_details my-20">
-            <div className="flash_title  text-center my-20 ">
-                <p className=' text-6xl main_text' >Flash Deals</p>
+            <div className="flash_title  text-center sm:my-20 my-10 ">
+                <p className=' sm:text-6xl text-5xl main_text' >Flash Deals</p>
             </div>
            <div>
            <div className="flash_main" >
@@ -200,7 +200,7 @@ function Testimonilas(props)
 {
   return(
     <>
-      <div className="testimonials_main grid grid-cols-2 shadow-lg shadow-[#aca7a7] py-12">
+      <div className="testimonials_main grid grid-cols-2 shadow-lg shadow-[#aca7a7] sm:py-12 ">
         <div className="testi_left">
           <img className='text-center pl-12 my-2' src={props.profile} alt="" />
           <p className="testi_name text-xl text-center">{props.name}</p>

@@ -78,7 +78,7 @@ export const Arrial = ({dataa,setdataa}) => {
           </div>
         </div>
         <div className="arrial_bottom grid sm:grid-cols-2 my-32">
-          <div className="arrial_one mx-3 my-8">
+          <div className="arrial_one mx-3  sm:my-0 my-8">
             <div className="center relative">
               <img src={one} alt="" />
               <p className="arrial_two_text text-4xl absolute top-32 px-10">
@@ -89,7 +89,7 @@ export const Arrial = ({dataa,setdataa}) => {
               </p>
             </div>
           </div>
-          <div className="arrial_two mx-3">
+          <div className="arrial_two mx-3 ">
             <div className="center relative">
               <img src={two} alt="" />
               <p className=" text-4xl arrial_two_text absolute top-32 px-10">

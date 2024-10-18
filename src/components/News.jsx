@@ -37,7 +37,7 @@ export const News = () => {
 
     <>
       <div className="news_main my-40 w-[90%]">
-        <div className="main_text new_title text-6xl text-center my-20">
+        <div className="main_text new_title sm:text-6xl text-5xl  text-center sm:my-20 my-10">
           Latest News
         </div>
         <div className="new_content">
@@ -66,14 +66,14 @@ export const News = () => {
           <img src={longsopa} alt="" />
         </div>
         <div className="deal_right py-6">
-          <p className="new__text text-5xl my-8">Deal Of The Day</p>
-          <p className="news_lorem_text text-xl  my-6">
+          <p className="new__text sm:text-5xl text-4xl my-8">Deal Of The Day</p>
+          <p className="news_lorem_text sm:text-xl text-lg my-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             voluptatum, numquam, delectus ea voluptates dignissimos laborum
             sequi nesciunt facilis ullam eveniet quo veritatis perferendis.
             Aperiam.
           </p>
-          <button className="news_btn my-6 rounded-lg py-3 text-center bg-[#2B5E5D] text-white  transition duration-1000 px-12 border-2 text-lg">
+          <button className="news_btn sm:my-6 rounded-lg py-3 text-center bg-[#2B5E5D] text-white  transition duration-1000 px-12 border-2 text-lg">
             Shop now
           </button>
         </div>
@@ -87,7 +87,7 @@ export const News = () => {
 function LatestNews(props) {
   return (
     <>
-        <div className="news grid sm:grid-cols-2 mx-14 gap-12">
+        <div className="news grid sm:grid-cols-2 px-10 gap-12">
             <div className="news_left">
               <img src={props.img} alt="" />
             </div>
