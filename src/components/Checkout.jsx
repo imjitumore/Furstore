@@ -14,8 +14,8 @@ console.log(dataa)
       <div>
         <p className="text-2xl py-4 px-16 font-semibold fixed border-2 w-full bg-white">Vinova Furstore</p>
         <hr />
-        <div className="grid grid-cols-2 w-full ">
-          <div className="px-20 my-20  w-[115%]  ">
+        <div className="grid sm:grid-cols-2 w-full ">
+          <div className="sm:px-20 px-6  my-20  sm:w-[115%] w-full  ">
             <label
               className="text-xl  font-semibold py-2  my-1"
               htmlFor="CONTACT"
@@ -38,7 +38,7 @@ console.log(dataa)
             </label>
             <br />
             <select
-              className="w-full border-2 rounded-lg px-4 py-3 my-3"
+              className="w-full border-2 rounded-lg px-4 py-3 sm:my-3 my-2"
               name=""
               id=""
             >
@@ -46,28 +46,28 @@ console.log(dataa)
               <option value="">France</option>
               <option value="">United States</option>
             </select>
-            <div className="flex  gap-6 my-3">
+            <div className="flex  sm:gap-6 gap-4 sm:my-3 my-2">
               <input type="text" placeholder="First Name(Optional)" />{" "}
               <input type="text" placeholder="Last Name" />
             </div>
             <input
-              className="my-3"
+              className="sm:my-3 my-2"
               type="text"
               placeholder="Adrress"
               name=""
               id=""
             />
             <input
-              className="my-3"
+              className="sm:my-3"
               type="text"
               placeholder="Apratment, Suite, etc. (Optinal)"
               name=""
               id=""
             />
-            <div className="flex gap-6 my-3">
-              <input type="text" placeholder="City" />{" "}
+            <div className="sm:flex gap-6 sm:my-3">
+              <input className="sm:my-2 my-2" type="text" placeholder="City" />{" "}
               <input type="text" placeholder="State" />{" "}
-              <input type="text" placeholder="Zip Code" />
+              <input className="sm:my-0 my-2" type="text" placeholder="Zip Code" />
             </div>
 
             <div className="my-16">
@@ -90,12 +90,12 @@ console.log(dataa)
                 </div>
                 <div className="mx-6 my-2 py-2">
                   <input type="number" placeholder="Card Number" />
-                  <div className="flex gap-6 my-4">
-                    <input
+                  <div className="sm:flex gap-6 my-4">
+                    <input className="sm:my-0 my-2"
                       type="number"
                       placeholder="Expiration date (MM/YY)"
                     />
-                    <input type="number" placeholder="Security Code" />
+                    <input className="sm:my-0 my-2" type="number" placeholder="Security Code" />
                   </div>
                   <input
                     className="px-6"
@@ -112,7 +112,7 @@ console.log(dataa)
             <p className="text-sm my-1">All rights reserved Vinova Furstore</p>
           </div>
           
-          <div className="bg-[#ffffff] fixed border-l-2 top-20 h-full right-0 w-[43%]" >
+          <div className="bg-[#ffffff] sm:fixed border-l-2 sm:top-20 h-full right-0 sm:w-[43%]" >
             <p className="text-xl mx-16 my-4 ">Products</p>
             {data.map((item) => {
             return (
