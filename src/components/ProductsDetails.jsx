@@ -16,9 +16,13 @@ import bigchair5 from "../assets/bigchair5.jpg"
 import bigchair_1 from "../assets/bigchair_1.jpg"
 import bigclock3 from "../assets/bigclock3.jpg"
 import bigcum3 from "../assets/bigcum3.jpg"
+import bigflowerpot3 from "../assets/bigflowerpot3.jpg"
+import bigflowerpot2 from "../assets/bigflowerpot2.jpg"
 import bigushi3 from "../assets/bigushi3.jpg"
 import {  faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { Cart } from "./Cart";
+
+
 
 export const ProductsDetails = ({ data , setdataa ,dataa}) => {
   const { name } = useParams();
@@ -281,6 +285,31 @@ function Showcase() {
         "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
       Quantity: "8",
     },
+    {
+      id: "9",
+      image: bigflowerpot2,
+      name: "Flower Pot2",
+      price: "$98.23",
+      discription:
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+      Tags: "13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+      Category:
+        "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+      Quantity: "5",
+    },
+    {
+      id: "10",
+      image:bigflowerpot3 ,
+      name: "flower pot2",
+      price: "$200.23",
+      discription:
+        "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum nreprehendereniet architecto",
+      Tags: "13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White",
+      Category:
+        "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
+      Quantity: "8",
+    }
+   
   ];
   return (
     <>
@@ -289,7 +318,7 @@ function Showcase() {
           <p className=" text-3xl main_text py-6">You Might Also Like</p>
         </div>
         <div className="text-center  w-full">
-          <div className="grid sm:grid-cols-4 grid-cols-2 items-center sm:mx-6 gap-2 my-4 w-full">
+          <div className="grid sm:grid-cols-5 grid-cols-2 items-center sm:mx-6 gap-2 my-4 w-full">
             {data.map((val) => {
               return (
                 <Link to={`/productsdetails/${val.name}`}>

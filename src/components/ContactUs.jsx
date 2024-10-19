@@ -35,12 +35,11 @@ export const ContactUs = () => {
             </p>
 
             <div className="inputs ">
-              <div className="line1 flex w-full gap-5">
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="Your Email" />
+              <div className="line1 sm:flex  w-full gap-5">
+                <input className="my-2" type="text" placeholder="Your Name" />
+                <input className="my-2" type="email" placeholder="Your Email" />
               </div>
-              <br />
-              <div className="line2">
+              <div className="line2 my-2">
                 <input type="number" placeholder="Your Number" />
                 <br />
                 <br />

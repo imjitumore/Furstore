@@ -15,7 +15,7 @@ function App() {
 
   const[data,setData]=useState([])
   const[blog,setBlog]=useState([])
-  const [dataa,setDataa] = useState([])
+  const[dataa,setDataa] = useState([])
 
   useEffect(()=>{
     fetch("Data.json").then((response)=>{
@@ -32,7 +32,6 @@ function App() {
 
   },[blog,data])
 
-  console.log(dataa)
   return (
     <>
     <BrowserRouter>

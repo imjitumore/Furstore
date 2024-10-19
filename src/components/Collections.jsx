@@ -26,6 +26,9 @@ import bigflowerpot1 from "../assets/bigflowerpot1.jpg"
 import bigflowerpot2 from "../assets/bigflowerpot2.jpg"
 import bigflowerpot3 from "../assets/bigflowerpot3.jpg"
 import bigflowerpot4 from "../assets/bigflowerpot4.jpg"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 
 
@@ -314,6 +317,33 @@ export function RelatedProducts() {
     }
 ];
 
+const settings = {
+  infinite: true,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 768, // sm screens (e.g., tablets and below)
+      settings: {
+        slidesToShow: 2,  // Show 2 slides on smaller screens
+        slidesToScroll: 2, 
+        infinite: true,
+      }
+    },
+    {
+      breakpoint: 430, // xs screens (e.g., mobile)
+      settings: {
+        slidesToShow: 2,  // Show 1 slide on extra small screens
+        slidesToScroll: 2, 
+        infinite: true,
+      }
+    }
+  ]
+};
   
   return (
     <>
@@ -322,10 +352,12 @@ export function RelatedProducts() {
           <p className=" text-3xl main_text">Related Products</p>
         </div>
         <div>
-          <div className="flash_main py-6 my-8">
+          <div className=" py-6 my-8  w-full">
+          <Slider {...settings}>
             {dataa.map((val) => {     
               return (
                 <Link to={`/productsdetails/${val.name}`}>
+                
                 <Arrial_card
                   key={val.id}
                   image={val.image}
@@ -335,6 +367,7 @@ export function RelatedProducts() {
                 </Link>
               );
             })}
+            </Slider>
           </div>
         </div>
       </div>
