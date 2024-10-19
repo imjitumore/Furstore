@@ -72,31 +72,31 @@ function Stocks() {
         <div className="hr sm:mx-16 my-6">
           <hr />
         </div>
-        <div className="selects flex sm:justify-center gap-2">
-          <select className="slct py-4 px-4  text-center">
-            <option value="">Availabitlity</option>
+        <div className=" sm:mx-14 mx-6 sm:flex grid grid-cols-4 sm:justify-center gap-2">
+          <select className="slct sm:py-3 py-1 sm:text-md text-[12px]  sm:px-4  text-center">
+            <option className="" value="">Availabitlity</option>
           </select>
-          <select className="py-3 px-4  text-center  slct">
+          <select className="sm:py-3 py-1 sm:text-md text-[12px]  sm:px-4 px-2  text-center  slct">
             <option value="">Price</option>
           </select>
-          <select className="py-3 px-4  text-center slct">
+          <select className="sm:py-3 py-1 sm:text-md text-[12px]  sm:px-4 px-2  text-center slct">
             <option value="">Product Type</option>
           </select>
-          <select className="py-3 px-4  text-center slct">
+          <select className="sm:py-3 py-1 sm:text-md text-[12px]  sm:px-4 px-2  text-center slct">
             <option value="">More Filters</option>
           </select>
-          <select className="py-3 px-4  text-center slct">
+          <select className="sm:py-3 py-1 sm:text-md text-[12px]  sm:px-4 px-2  text-center slct">
             <option value="">Brand</option>
           </select>
-          <select className="py-3 px-4  text-center slct">
+          <select className="sm:py-3 py-1 sm:text-md text-[12px]  sm:px-4 px-2  text-center slct">
             <option value="color">Color</option>
           </select>
-          <select className="py-3 px-4  text-center slct">
+          <select className="sm:py-3 py-1 sm:text-md text-[12px]  sm:px-4 px-2  text-center slct">
             <option value="">Size</option>
           </select>
         </div>
 
-        <button className="text-white bg-[#387581] text-sm py-3 px-6 rounded-md my-4 sm:mx-14 mx-6">
+        <button className="text-white bg-[#387581] sm:text-sm text-[13px] sm:py-3 sm:px-6 py-2 px-3 rounded-md my-4 sm:mx-14 mx-6">
           <FontAwesomeIcon icon={faTrash} /> CLEAR ALL
         </button>
       </div>
@@ -110,10 +110,10 @@ function Allproducts(props) {
     <>
       <div className="stucture">
         <div className="sorted_grid flex items-center justify-between pr-10">
-          <select className="sel py-3 px-3 mx-14 my-4">
+          <select className="sel py-3 px-3 sm:mx-14 mx-1 my-4">
             <option value="">Sort By featured</option>
           </select>
-          <div className="grid_boxes flex text-3xl gap-3">
+          <div className="grid_boxes flex sm:text-3xl text-xl gap-3">
             <TfiLayoutGrid4Alt
               onClick={() => {
                 setVal(1);

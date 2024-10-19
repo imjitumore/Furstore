@@ -162,7 +162,7 @@ export const Testimonil = () => {
   
         <div className="testimonals_main my-20">
         <div className="testimonal_title my-20">
-            <h1 className='main_text text-6xl text-center sm:my-10 my-4'>Testimonilas</h1>
+            <h1 className='main_text sm:text-6xl text-5xl text-center sm:my-10 my-4'>Testimonilas</h1>
         </div>
         <div className="testimonal_center grid sm:grid-cols-3 gap-10 mx-8 ">
         <Testimonilas profile={man1} name={"Rushi Godke"} positon={"CEO of Coding cloud"} quote={`"`} lorem={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, laboriosam!"}/>

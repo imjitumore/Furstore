@@ -66,7 +66,7 @@ export const Cart = ({ dataa }) => {
             <tbody>
               <tr className="border-b-2">
                 <td className="mx-2 text-center"><button><FontAwesomeIcon  className="text-center" icon={faTrash}/></button></td>
-                <td className="sm:flex gap-6 py-2 items-center  text-center"><img className="sm:w-20 w-28 " src={item.image} alt="" />{item.name}</td>
+                <td className="sm:flex gap-6 py-2 items-center  text-center"><img className="sm:w-20 w-24 " src={item.image} alt="" />{item.name}</td>
                 <td className=" text-center">{price}</td>
                 <td><div className="border-2 flex sm:justify-around justify-center sm:gap-0 gap-2"><button onClick={Decrese}>-</button><p>{Qty}</p><button onClick={()=>Increse(item.id)}>+</button></div></td>
                 <td className="font-semibold text-center">{(item.price*Qty).toFixed(2)}</td>

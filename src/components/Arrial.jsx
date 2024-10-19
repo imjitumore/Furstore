@@ -81,10 +81,10 @@ export const Arrial = ({dataa,setdataa}) => {
           <div className="arrial_one mx-3  sm:my-0 my-8">
             <div className="center relative">
               <img src={one} alt="" />
-              <p className="arrial_two_text text-4xl absolute top-32 px-10">
+              <p className="arrial_two_text sm:text-4xl text-2xl absolute top-20 px-10">
                 SIDE TABLE
               </p>
-              <p className="arrial_two_textt cursor-pointer absolute top-44 px-10">
+              <p className="arrial_two_textt cursor-pointer absolute top-28 px-10">
                 Discovery now
               </p>
             </div>
@@ -92,10 +92,10 @@ export const Arrial = ({dataa,setdataa}) => {
           <div className="arrial_two mx-3 ">
             <div className="center relative">
               <img src={two} alt="" />
-              <p className=" text-4xl arrial_two_text absolute top-32 px-10">
+              <p className=" sm:text-4xl text-2xl arrial_two_text absolute top-20 px-10">
                 HANGING LIGHT
               </p>
-              <p className="arrial_two_textt cursor-pointer absolute top-44 px-10">
+              <p className="arrial_two_textt cursor-pointer absolute top-28 px-10">
                 Discovery now
               </p>
             </div>

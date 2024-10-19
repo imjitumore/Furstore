@@ -101,11 +101,11 @@ export const Products = (props) => {
     <>
       <div className="products_main my-20 text-center">
         <div className="products_title my-2">
-          <h1 className="main_text text-center text-5xl my-4">Our Products</h1>
+          <h1 className="main_text text-center sm:text-5xl text-4xl my-4">Our Products</h1>
         </div>
         <div className="products_details w-full">
           <div className="navbar_ull text-center">
-            <ul className="product_list flex justify-center w-full sm:gap-20  gap-6 my-12 text-lg cursor-pointer">
+            <ul className="product_list flex justify-center w-full sm:gap-20  gap-6 my-12 sm:text-lg text-md cursor-pointer">
               <li>HOT</li>
               <li onClick={()=>{
                 setState1(

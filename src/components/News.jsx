@@ -105,7 +105,7 @@ function Gallary() {
   return (
     <>
       <div className="gallary_main my-28">
-        <div className="main_text gallary_title text-6xl text-center my-14">
+        <div className="main_text gallary_title sm:text-6xl text-4xl text-center my-14">
           Gram Gallery
         </div>
         <div className="gallery_pics grid sm:grid-cols-6 grid-cols-3 gap-6 px-4">

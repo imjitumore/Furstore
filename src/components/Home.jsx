@@ -63,9 +63,9 @@ const Advertisement = () => {
           <div className="imgg relative">
             <img src={img1} alt="" />
             <div className="adver_one py-6 px-10 absolute top-4">
-              <h1 className="adver_card_title text-3xl font-bold">NEW PLANT</h1>
+              <h1 className="adver_card_title sm:text-3xl text-xl font-bold">NEW PLANT</h1>
               <p>Get up to 40% off</p>
-              <button className="bg-[black] text-white py-2 px-8 my-10 cursor-pointer adver_card_btn">
+              <button className="bg-[black] text-white sm:py-2 py-1 sm:px-8 px-4 sm:my-10 my-2 sm:text-md text-sm cursor-pointer adver_card_btn">
                 SHOP NOW
               </button>
             </div>
@@ -74,11 +74,11 @@ const Advertisement = () => {
           <div className="imgg relative">
             <img src={img2} alt="" />
             <div className="adver_two adver_one py-6 px-10 absolute top-4">
-              <h1 className="adver_card_title text-3xl font-bold text-white">
+              <h1 className="adver_card_title sm:text-3xl text-xl font-bold text-white">
                 CHAIN LAMP
               </h1>
               <p className="text-white">Get up to 60% off</p>
-              <button className="adver_card_btn bg-[white] py-2 px-8 my-10 cursor-pointer">
+              <button  className="bg-[white] font-semibold sm:py-2 py-1 sm:px-8 px-4 sm:my-10 my-2 sm:text-md text-sm cursor-pointer adver_card_btn">
                 SHOP NOW
               </button>
             </div>
@@ -87,11 +87,11 @@ const Advertisement = () => {
           <div className="imgg relative">
             <img src={img3} alt="" />
             <div className="adver_three adver_one py-6 px-10 absolute top-4">
-              <h1 className="adver_card_title text-3xl font-bold text-[black] ">
+              <h1 className="adver_card_title sm:text-3xl text-xl font-bold text-[black] ">
                 NEW CHAIR
               </h1>
               <p>Get up to 40% off</p>
-              <button className="adver_card_btn bg-[black] text-white py-2 px-8 my-10 cursor-pointer">
+              <button  className="bg-[black] text-white sm:py-2 py-1 sm:px-8 px-4 sm:my-10 my-2 sm:text-md text-sm cursor-pointer adver_card_btn">
                 SHOP NOW
               </button>
             </div>
